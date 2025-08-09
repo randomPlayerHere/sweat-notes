@@ -1,1 +1,4 @@
-kaggle
+numpy
+pandas
+seaborn
+matplotlib
