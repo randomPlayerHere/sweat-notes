@@ -1,5 +1,4 @@
 package com.example.sweat_notes.services;
-
 import java.time.Duration;
 import java.time.LocalDateTime;
 
@@ -21,7 +20,7 @@ public class userStatService {
 
     }
   private userStatsEntity createInitialStats() {
-        userStatsEntity stats = new userStatsEntity();
+        userStatsEntity stats = getUserstats();
         stats.setCurrentStreak(12);
         stats.setBestStreak(18);
         stats.setTotalWorkouts(147);
@@ -41,6 +40,7 @@ public class userStatService {
         LocalDateTime lastWorkout = stats.getLastWorkoutDate();
         if (lastWorkout == null) {
             stats.setCurrentStreak(1);
+            return;
         }
         long daydiff = Duration.between(lastWorkout.toLocalDate().atStartOfDay(), now.toLocalDate().atStartOfDay()).toDays();
         if(daydiff > 1){

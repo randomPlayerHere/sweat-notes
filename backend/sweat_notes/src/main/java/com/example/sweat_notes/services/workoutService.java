@@ -40,6 +40,16 @@ public class workoutService {
            return false;
        }
     }
+    public workoutEntity updateWorkout(String id,insertWorkout insertworkout){
+        return workoutrepository.findById(id).map(existing ->{
+            existing.setName(insertworkout.getName());
+            existing.setType(insertworkout.getType());
+            existing.setDuration(insertworkout.getDuration());
+            existing.setIntensity(insertworkout.getIntensity());
+            existing.setNotes(insertworkout.getNotes());
+            return workoutrepository.save(existing);
+        }).orElse(null);
+    }
     
     
 }
