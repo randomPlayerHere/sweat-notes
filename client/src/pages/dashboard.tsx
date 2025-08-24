@@ -6,17 +6,37 @@ import Recommendations from "@/components/dashboard/recommendations";
 import WorkoutHistory from "@/components/dashboard/workout-history";
 import { Flame, Settings, PlusCircle } from "lucide-react";
 import type { Workout, UserStats } from "@shared/schema";
+import { API_URLS } from "@/config/api";
+import { useAuth } from "@/contexts/auth-context";
 
 export default function Dashboard() {
+  const { user } = useAuth();
+  
+  // Fetch user workouts
   const { data: workouts, isLoading: workoutsLoading } = useQuery<Workout[]>({
-    queryKey: ['/api/workouts'],
+    queryKey: ['workouts', user?.id],
+    queryFn: async () => {
+      if (!user?.id) return [];
+      const response = await fetch(`${API_URLS.WORKOUTS}?userId=${user.id}`);
+      if (!response.ok) throw new Error('Failed to fetch workouts');
+      return response.json();
+    },
+    enabled: !!user?.id
   });
 
+  // Fetch user stats
   const { data: userStats, isLoading: statsLoading } = useQuery<UserStats>({
-    queryKey: ['/api/user-stats'],
+    queryKey: ['user-stats', user?.id],
+    queryFn: async () => {
+      if (!user?.id) return null;
+      const response = await fetch(`${API_URLS.USER_STATS}/${user.id}`);
+      if (!response.ok) throw new Error('Failed to fetch user stats');
+      return response.json();
+    },
+    enabled: !!user?.id
   });
 
-  const isLoading = workoutsLoading || statsLoading;
+  const isLoading = workoutsLoading || statsLoading || !user;
 
   if (isLoading) {
     return (
@@ -34,7 +54,7 @@ export default function Dashboard() {
       <Navigation />
       
       {/* Development Mode Warning */}
-      <div className="bg-yellow-50 border-l-4 border-yellow-400 px-6 py-3">
+      {/* <div className="bg-yellow-50 border-l-4 border-yellow-400 px-6 py-3">
         <div className="flex">
           <div className="flex-shrink-0">
             <svg className="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
@@ -47,14 +67,14 @@ export default function Dashboard() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       
       <main className="container mx-auto px-6 py-6 max-w-7xl">
         {/* Welcome Section */}
         <div className="mb-6">
           <div className="flex items-center justify-between mb-4">
             <div>
-              <h1 className="text-2xl font-bold text-gray-900 mb-1">Welcome back, John!</h1>
+              <h1 className="text-2xl font-bold text-gray-900">Welcome back, {user?.username || 'Fitness Enthusiast'}!</h1>
               <p className="text-gray-600">Ready to crush your fitness goals today?</p>
             </div>
             <div className="flex items-center space-x-3">
