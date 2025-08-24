@@ -1,21 +1,131 @@
-import { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
-import { ArrowLeft, User, Edit, Settings, Trophy, Calendar, Flame } from "lucide-react";
+import { useState, useEffect } from "react";
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { ArrowLeft, User, Edit, Settings, Trophy, Calendar, Flame, Loader2 } from "lucide-react";
 import { useLocation } from "wouter";
 import Navigation from "@/components/dashboard/navigation";
 import type { UserStats, Workout } from "@shared/schema";
+import { API_URLS } from "@/config/api";
+import { useToast } from "@/hooks/use-toast";
+import { useAuth } from "@/contexts/auth-context";
+
+interface ProfileData {
+  fullName: string;
+  email: string;
+  age: number;
+  goal: string;
+  notifications: {
+    email: boolean;
+    push: boolean;
+    weeklyReports: boolean;
+  };
+}
 
 export default function Profile() {
   const [, setLocation] = useLocation();
+  const { user, logout } = useAuth();
   const [isEditing, setIsEditing] = useState(false);
+  const { toast } = useToast();
+  const queryClient = useQueryClient();
   
+  const [profileData, setProfileData] = useState<ProfileData>({
+    fullName: user?.username || 'User',
+    email: user?.email || '',
+    age: 28,
+    goal: 'weight-loss',
+    notifications: {
+      email: true,
+      push: true,
+      weeklyReports: true
+    }
+  });
+  
+  // Fetch user stats
   const { data: userStats } = useQuery<UserStats>({
-    queryKey: ['/api/user-stats'],
+    queryKey: ['user-stats', user?.id],
+    queryFn: async () => {
+      if (!user?.id) return null;
+      const response = await fetch(`${API_URLS.USER_STATS}/${user.id}`);
+      if (!response.ok) throw new Error('Failed to fetch user stats');
+      return response.json();
+    },
+    enabled: !!user?.id
   });
 
+  // Fetch user workouts
   const { data: workouts } = useQuery<Workout[]>({
-    queryKey: ['/api/workouts'],
+    queryKey: ['workouts', user?.id],
+    queryFn: async () => {
+      if (!user?.id) return [];
+      const response = await fetch(`${API_URLS.WORKOUTS}?userId=${user.id}`);
+      if (!response.ok) throw new Error('Failed to fetch workouts');
+      return response.json();
+    },
+    enabled: !!user?.id
   });
+  
+  // Save profile mutation
+  const saveProfileMutation = useMutation({
+    mutationFn: async (data: ProfileData) => {
+      if (!user?.id) throw new Error('User not authenticated');
+      const response = await fetch(`${API_URLS.USER_STATS}/${user.id}`, {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(data),
+        credentials: 'include',
+      });
+      
+      if (!response.ok) {
+        throw new Error('Failed to save profile');
+      }
+      
+      return response.json();
+    },
+    onSuccess: () => {
+      toast({
+        title: "Success",
+        description: "Profile updated successfully!",
+      });
+      setIsEditing(false);
+    },
+    onError: () => {
+      toast({
+        title: "Error",
+        description: "Failed to update profile. Please try again.",
+        variant: "destructive",
+      });
+    },
+  });
+  
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+    const { name, value, type } = e.target as HTMLInputElement;
+    
+    if (name in profileData.notifications) {
+      setProfileData(prev => ({
+        ...prev,
+        notifications: {
+          ...prev.notifications,
+          [name]: (e.target as HTMLInputElement).checked
+        }
+      }));
+    } else {
+      setProfileData(prev => ({
+        ...prev,
+        [name]: type === 'number' ? parseInt(value) || 0 : value
+      }));
+    }
+  };
+  
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    saveProfileMutation.mutate(profileData);
+  };
+
+  const handleLogout = () => {
+    logout();
+    setLocation('/login');
+  };
 
   // Calculate some profile stats
   const totalCaloriesBurned = workouts?.reduce((sum, workout) => sum + workout.calories, 0) || 0;
@@ -73,24 +183,27 @@ export default function Profile() {
                   <User className="w-8 h-8 text-gray-500" />
                 </div>
                 <div>
-                  <h2 className="text-xl font-semibold text-gray-900">John Doe</h2>
+                  <h2 className="text-xl font-semibold text-gray-900">{profileData.fullName}</h2>
                   <p className="text-gray-600">Fitness Enthusiast</p>
                   <p className="text-sm text-gray-500">Member since January 2024</p>
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
                   {isEditing ? (
                     <input
                       type="text"
-                      defaultValue="John Doe"
+                      name="fullName"
+                      value={profileData.fullName}
+                      onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent"
                       data-testid="input-full-name"
+                      required
                     />
                   ) : (
-                    <p className="text-gray-900">John Doe</p>
+                    <p className="text-gray-900">{profileData.fullName}</p>
                   )}
                 </div>
 
@@ -99,12 +212,15 @@ export default function Profile() {
                   {isEditing ? (
                     <input
                       type="email"
-                      defaultValue="john.doe@example.com"
+                      name="email"
+                      value={profileData.email}
+                      onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent"
                       data-testid="input-email"
+                      required
                     />
                   ) : (
-                    <p className="text-gray-900">john.doe@example.com</p>
+                    <p className="text-gray-900">{profileData.email}</p>
                   )}
                 </div>
 
@@ -113,12 +229,17 @@ export default function Profile() {
                   {isEditing ? (
                     <input
                       type="number"
-                      defaultValue="28"
+                      name="age"
+                      value={profileData.age}
+                      onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent"
                       data-testid="input-age"
+                      min="1"
+                      max="120"
+                      required
                     />
                   ) : (
-                    <p className="text-gray-900">28 years old</p>
+                    <p className="text-gray-900">{profileData.age} years old</p>
                   )}
                 </div>
 
@@ -126,7 +247,9 @@ export default function Profile() {
                   <label className="block text-sm font-medium text-gray-700 mb-1">Goal</label>
                   {isEditing ? (
                     <select
-                      defaultValue="weight-loss"
+                      name="goal"
+                      value={profileData.goal}
+                      onChange={handleInputChange}
                       className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent"
                       data-testid="select-goal"
                     >
@@ -136,10 +259,14 @@ export default function Profile() {
                       <option value="general-fitness">General Fitness</option>
                     </select>
                   ) : (
-                    <p className="text-gray-900">Weight Loss</p>
+                    <p className="text-gray-900">{
+                      profileData.goal === 'weight-loss' ? 'Weight Loss' :
+                      profileData.goal === 'muscle-gain' ? 'Muscle Gain' :
+                      profileData.goal === 'endurance' ? 'Endurance' : 'General Fitness'
+                    }</p>
                   )}
                 </div>
-              </div>
+              </form>
 
               {isEditing && (
                 <div className="flex justify-end space-x-3 mt-6">
@@ -151,11 +278,17 @@ export default function Profile() {
                     Cancel
                   </button>
                   <button
-                    onClick={() => setIsEditing(false)}
-                    className="px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800"
+                    type="submit"
+                    className="px-4 py-2 bg-black text-white rounded-lg hover:bg-gray-800 flex items-center justify-center min-w-[120px]"
                     data-testid="button-save-profile"
+                    disabled={saveProfileMutation.isPending}
                   >
-                    Save Changes
+                    {saveProfileMutation.isPending ? (
+                      <>
+                        <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                        Saving...
+                      </>
+                    ) : 'Save Changes'}
                   </button>
                 </div>
               )}
@@ -176,7 +309,9 @@ export default function Profile() {
                   </div>
                   <input
                     type="checkbox"
-                    defaultChecked
+                    name="email"
+                    checked={profileData.notifications.email}
+                    onChange={handleInputChange}
                     className="w-4 h-4 text-black border-gray-300 rounded focus:ring-black"
                     data-testid="checkbox-email-notifications"
                   />
@@ -189,7 +324,9 @@ export default function Profile() {
                   </div>
                   <input
                     type="checkbox"
-                    defaultChecked
+                    name="push"
+                    checked={profileData.notifications.push}
+                    onChange={handleInputChange}
                     className="w-4 h-4 text-black border-gray-300 rounded focus:ring-black"
                     data-testid="checkbox-push-notifications"
                   />

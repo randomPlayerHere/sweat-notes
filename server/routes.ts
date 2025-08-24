@@ -4,22 +4,35 @@ import { storage } from "./storage";
 import { insertWorkoutSchema, insertWorkoutPlanSchema } from "@shared/schema";
 import { z } from "zod";
 
+const SPRING_BASE_URL = 'http://localhost:8080'
 export async function registerRoutes(app: Express): Promise<Server> {
-  // Workouts routes
+  // Workouts routes - Proxy to Spring Boot backend
+  
+  
   app.get("/api/workouts", async (req, res) => {
     try {
-      const workouts = await storage.getWorkouts();
-      res.json(workouts);
+      const response = await fetch(`${SPRING_BASE_URL}/api/workouts`, {
+        headers: { "Content-Type": "application/json" },
+      });
+      const data = await response.json();
+      res.json(data);
     } catch (error) {
       res.status(500).json({ message: "Failed to fetch workouts" });
     }
+
   });
 
+  
   app.post("/api/workouts", async (req, res) => {
     try {
       const validatedData = insertWorkoutSchema.parse(req.body);
-      const workout = await storage.createWorkout(validatedData);
-      res.status(201).json(workout);
+      const response = await fetch(`${SPRING_BASE_URL}/api/workouts`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(validatedData),
+      });
+      const data = await response.json();
+      res.status(response.status).json(data);
     } catch (error) {
       if (error instanceof z.ZodError) {
         res.status(400).json({ message: "Invalid workout data", errors: error.errors });
@@ -28,7 +41,6 @@ export async function registerRoutes(app: Express): Promise<Server> {
       }
     }
   });
-
   app.delete("/api/workouts/:id", async (req, res) => {
     try {
       const { id } = req.params;
