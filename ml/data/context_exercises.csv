@@ -1,0 +1,582 @@
+name,force,level,mechanic,equipment,primaryMuscles,secondaryMuscles,category,id
+3/4 Sit-Up,pull,beginner,compound,body only,['abdominals'],[],strength,3_4_Sit-Up
+Ab Crunch Machine,pull,intermediate,isolation,machine,['abdominals'],[],strength,Ab_Crunch_Machine
+Ab Roller,pull,intermediate,compound,other,['abdominals'],['shoulders'],strength,Ab_Roller
+Advanced Kettlebell Windmill,push,intermediate,isolation,kettlebells,['abdominals'],"['glutes', 'hamstrings', 'shoulders']",strength,Advanced_Kettlebell_Windmill
+Air Bike,pull,beginner,compound,body only,['abdominals'],[],strength,Air_Bike
+Alternate Hammer Curl,pull,beginner,isolation,dumbbell,['biceps'],['forearms'],strength,Alternate_Hammer_Curl
+Alternate Heel Touchers,pull,beginner,isolation,body only,['abdominals'],[],strength,Alternate_Heel_Touchers
+Alternate Incline Dumbbell Curl,pull,beginner,isolation,dumbbell,['biceps'],['forearms'],strength,Alternate_Incline_Dumbbell_Curl
+Alternating Cable Shoulder Press,push,beginner,compound,cable,['shoulders'],['triceps'],strength,Alternating_Cable_Shoulder_Press
+Alternating Deltoid Raise,push,beginner,isolation,dumbbell,['shoulders'],[],strength,Alternating_Deltoid_Raise
+Alternating Floor Press,push,beginner,compound,kettlebells,['chest'],"['abdominals', 'shoulders', 'triceps']",strength,Alternating_Floor_Press
+Alternating Hang Clean,legs,intermediate,compound,kettlebells,['hamstrings'],"['biceps', 'calves', 'forearms', 'glutes', 'lower back', 'traps']",strength,Alternating_Hang_Clean
+Alternating Kettlebell Press,push,intermediate,compound,kettlebells,['shoulders'],['triceps'],strength,Alternating_Kettlebell_Press
+Alternating Kettlebell Row,pull,intermediate,isolation,kettlebells,['middle back'],"['biceps', 'lats']",strength,Alternating_Kettlebell_Row
+Alternating Renegade Row,pull,expert,compound,kettlebells,['middle back'],"['abdominals', 'biceps', 'chest', 'lats', 'triceps']",strength,Alternating_Renegade_Row
+Anti-Gravity Press,push,beginner,compound,barbell,['shoulders'],"['middle back', 'traps', 'triceps']",strength,Anti-Gravity_Press
+Arnold Dumbbell Press,push,intermediate,compound,dumbbell,['shoulders'],['triceps'],strength,Arnold_Dumbbell_Press
+Around The Worlds,push,intermediate,compound,dumbbell,['chest'],['shoulders'],strength,Around_The_Worlds
+Back Flyes - With Bands,pull,beginner,compound,bands,['shoulders'],"['middle back', 'triceps']",strength,Back_Flyes_-_With_Bands
+Balance Board,legs,beginner,compound,other,['calves'],"['hamstrings', 'quadriceps']",strength,Balance_Board
+Ball Leg Curl,legs,beginner,isolation,exercise ball,['hamstrings'],"['calves', 'glutes']",strength,Ball_Leg_Curl
+Band Assisted Pull-Up,,beginner,compound,other,['lats'],"['abdominals', 'forearms', 'middle back']",strength,Band_Assisted_Pull-Up
+Band Hip Adductions,legs,beginner,isolation,bands,['adductors'],[],strength,Band_Hip_Adductions
+Band Pull Apart,pull,beginner,isolation,bands,['shoulders'],"['middle back', 'traps']",strength,Band_Pull_Apart
+Band Skull Crusher,push,beginner,isolation,bands,['triceps'],[],strength,Band_Skull_Crusher
+Barbell Ab Rollout,pull,intermediate,compound,barbell,['abdominals'],"['lower back', 'shoulders']",strength,Barbell_Ab_Rollout
+Barbell Ab Rollout - On Knees,pull,expert,compound,barbell,['abdominals'],"['lower back', 'shoulders']",strength,Barbell_Ab_Rollout_-_On_Knees
+Barbell Bench Press - Medium Grip,push,beginner,compound,barbell,['chest'],"['shoulders', 'triceps']",strength,Barbell_Bench_Press_-_Medium_Grip
+Barbell Curl,pull,beginner,isolation,barbell,['biceps'],['forearms'],strength,Barbell_Curl
+Barbell Curls Lying Against An Incline,pull,beginner,isolation,barbell,['biceps'],[],strength,Barbell_Curls_Lying_Against_An_Incline
+Barbell Deadlift,pull,intermediate,compound,barbell,['lower back'],"['calves', 'forearms', 'glutes', 'hamstrings', 'lats', 'middle back', 'quadriceps', 'traps']",strength,Barbell_Deadlift
+Barbell Full Squat,legs,intermediate,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'lower back']",strength,Barbell_Full_Squat
+Barbell Guillotine Bench Press,push,intermediate,compound,barbell,['chest'],"['shoulders', 'triceps']",strength,Barbell_Guillotine_Bench_Press
+Barbell Hack Squat,legs,intermediate,compound,barbell,['quadriceps'],"['calves', 'forearms', 'hamstrings']",strength,Barbell_Hack_Squat
+Barbell Incline Bench Press - Medium Grip,push,beginner,compound,barbell,['chest'],"['shoulders', 'triceps']",strength,Barbell_Incline_Bench_Press_-_Medium_Grip
+Barbell Incline Shoulder Raise,push,beginner,compound,barbell,['shoulders'],['chest'],strength,Barbell_Incline_Shoulder_Raise
+Barbell Lunge,legs,intermediate,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Barbell_Lunge
+Barbell Rear Delt Row,pull,beginner,compound,barbell,['shoulders'],"['biceps', 'lats', 'middle back']",strength,Barbell_Rear_Delt_Row
+Barbell Rollout from Bench,pull,intermediate,compound,barbell,['abdominals'],"['glutes', 'hamstrings', 'lats', 'shoulders']",strength,Barbell_Rollout_from_Bench
+Barbell Seated Calf Raise,legs,beginner,isolation,barbell,['calves'],[],strength,Barbell_Seated_Calf_Raise
+Barbell Shoulder Press,push,intermediate,compound,barbell,['shoulders'],"['chest', 'triceps']",strength,Barbell_Shoulder_Press
+Barbell Shrug,pull,beginner,isolation,barbell,['traps'],[],strength,Barbell_Shrug
+Barbell Shrug Behind The Back,pull,beginner,isolation,barbell,['traps'],"['forearms', 'middle back']",strength,Barbell_Shrug_Behind_The_Back
+Barbell Side Bend,pull,beginner,isolation,barbell,['abdominals'],['lower back'],strength,Barbell_Side_Bend
+Barbell Side Split Squat,legs,beginner,compound,barbell,['quadriceps'],"['calves', 'hamstrings', 'lower back']",strength,Barbell_Side_Split_Squat
+Barbell Squat,legs,beginner,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'lower back']",strength,Barbell_Squat
+Barbell Squat To A Bench,legs,expert,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'lower back']",strength,Barbell_Squat_To_A_Bench
+Barbell Step Ups,legs,intermediate,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'quadriceps']",strength,Barbell_Step_Ups
+Barbell Walking Lunge,legs,beginner,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Barbell_Walking_Lunge
+Battling Ropes,push,beginner,compound,other,['shoulders'],"['chest', 'forearms']",strength,Battling_Ropes
+Bench Dips,push,beginner,compound,body only,['triceps'],"['chest', 'shoulders']",strength,Bench_Dips
+Bench Press - With Bands,push,beginner,compound,bands,['chest'],"['shoulders', 'triceps']",strength,Bench_Press_-_With_Bands
+Bent-Arm Barbell Pullover,pull,intermediate,compound,barbell,['lats'],"['chest', 'lats', 'shoulders', 'triceps']",strength,Bent-Arm_Barbell_Pullover
+Bent-Arm Dumbbell Pullover,push,intermediate,compound,dumbbell,['chest'],"['lats', 'shoulders', 'triceps']",strength,Bent-Arm_Dumbbell_Pullover
+Bent-Knee Hip Raise,pull,beginner,compound,body only,['abdominals'],[],strength,Bent-Knee_Hip_Raise
+Bent Over Barbell Row,pull,beginner,compound,barbell,['middle back'],"['biceps', 'lats', 'shoulders']",strength,Bent_Over_Barbell_Row
+Bent Over Dumbbell Rear Delt Raise With Head On Bench,pull,beginner,isolation,dumbbell,['shoulders'],[],strength,Bent_Over_Dumbbell_Rear_Delt_Raise_With_Head_On_Bench
+Bent Over Low-Pulley Side Lateral,pull,beginner,isolation,cable,['shoulders'],"['lower back', 'middle back', 'traps']",strength,Bent_Over_Low-Pulley_Side_Lateral
+Bent Over One-Arm Long Bar Row,pull,beginner,compound,barbell,['middle back'],"['biceps', 'lats', 'lower back', 'traps']",strength,Bent_Over_One-Arm_Long_Bar_Row
+Bent Over Two-Arm Long Bar Row,pull,intermediate,compound,barbell,['middle back'],"['biceps', 'lats']",strength,Bent_Over_Two-Arm_Long_Bar_Row
+Bent Over Two-Dumbbell Row,pull,beginner,compound,dumbbell,['middle back'],"['biceps', 'lats', 'shoulders']",strength,Bent_Over_Two-Dumbbell_Row
+Bent Over Two-Dumbbell Row With Palms In,pull,beginner,compound,dumbbell,['middle back'],"['biceps', 'lats']",strength,Bent_Over_Two-Dumbbell_Row_With_Palms_In
+Bent Press,pull,expert,compound,kettlebells,['abdominals'],"['glutes', 'hamstrings', 'lower back', 'quadriceps', 'shoulders', 'triceps']",strength,Bent_Press
+Body-Up,push,intermediate,isolation,body only,['triceps'],"['abdominals', 'forearms']",strength,Body-Up
+Body Tricep Press,push,beginner,isolation,body only,['triceps'],[],strength,Body_Tricep_Press
+Bodyweight Flyes,push,intermediate,isolation,e-z curl bar,['chest'],"['abdominals', 'shoulders', 'triceps']",strength,Bodyweight_Flyes
+Bodyweight Mid Row,pull,intermediate,compound,other,['middle back'],"['biceps', 'lats']",strength,Bodyweight_Mid_Row
+Bodyweight Squat,legs,beginner,compound,body only,['quadriceps'],"['glutes', 'hamstrings']",strength,Bodyweight_Squat
+Bodyweight Walking Lunge,legs,beginner,compound,,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Bodyweight_Walking_Lunge
+Bosu Ball Cable Crunch With Side Bends,pull,beginner,isolation,cable,['abdominals'],[],strength,Bosu_Ball_Cable_Crunch_With_Side_Bends
+Bottoms-Up Clean From The Hang Position,pull,intermediate,compound,kettlebells,['forearms'],"['biceps', 'shoulders']",strength,Bottoms-Up_Clean_From_The_Hang_Position
+Bottoms Up,pull,beginner,compound,body only,['abdominals'],[],strength,Bottoms_Up
+Box Squat with Chains,legs,expert,compound,barbell,['quadriceps'],"['abductors', 'adductors', 'calves', 'glutes', 'hamstrings', 'lower back']",strength,Box_Squat_with_Chains
+Bradford/Rocky Presses,push,beginner,compound,barbell,['shoulders'],['triceps'],strength,Bradford_Rocky_Presses
+Butt-Ups,pull,beginner,compound,body only,['abdominals'],[],strength,Butt-Ups
+Butt Lift (Bridge),legs,beginner,isolation,body only,['glutes'],['hamstrings'],strength,Butt_Lift_Bridge
+Butterfly,pull,beginner,isolation,machine,['chest'],[],strength,Butterfly
+Cable Chest Press,push,beginner,compound,cable,['chest'],"['shoulders', 'triceps']",strength,Cable_Chest_Press
+Cable Crossover,push,beginner,isolation,cable,['chest'],['shoulders'],strength,Cable_Crossover
+Cable Crunch,pull,beginner,isolation,cable,['abdominals'],[],strength,Cable_Crunch
+Cable Deadlifts,legs,beginner,compound,cable,['quadriceps'],"['forearms', 'glutes', 'hamstrings', 'lower back']",strength,Cable_Deadlifts
+Cable Hammer Curls - Rope Attachment,pull,beginner,isolation,cable,['biceps'],[],strength,Cable_Hammer_Curls_-_Rope_Attachment
+Cable Hip Adduction,legs,beginner,isolation,cable,['quadriceps'],[],strength,Cable_Hip_Adduction
+Cable Incline Pushdown,pull,beginner,isolation,cable,['lats'],[],strength,Cable_Incline_Pushdown
+Cable Incline Triceps Extension,push,beginner,isolation,cable,['triceps'],[],strength,Cable_Incline_Triceps_Extension
+Cable Internal Rotation,pull,beginner,compound,cable,['shoulders'],[],strength,Cable_Internal_Rotation
+Cable Iron Cross,push,beginner,isolation,cable,['chest'],[],strength,Cable_Iron_Cross
+Cable Judo Flip,pull,beginner,compound,cable,['abdominals'],[],strength,Cable_Judo_Flip
+Cable Lying Triceps Extension,push,beginner,isolation,cable,['triceps'],[],strength,Cable_Lying_Triceps_Extension
+Cable One Arm Tricep Extension,push,beginner,isolation,cable,['triceps'],[],strength,Cable_One_Arm_Tricep_Extension
+Cable Preacher Curl,pull,beginner,isolation,cable,['biceps'],['forearms'],strength,Cable_Preacher_Curl
+Cable Rear Delt Fly,pull,beginner,isolation,cable,['shoulders'],[],strength,Cable_Rear_Delt_Fly
+Cable Reverse Crunch,pull,beginner,isolation,cable,['abdominals'],[],strength,Cable_Reverse_Crunch
+Cable Rope Overhead Triceps Extension,push,beginner,isolation,cable,['triceps'],[],strength,Cable_Rope_Overhead_Triceps_Extension
+Cable Rope Rear-Delt Rows,pull,beginner,compound,cable,['shoulders'],"['biceps', 'middle back']",strength,Cable_Rope_Rear-Delt_Rows
+Cable Russian Twists,pull,beginner,compound,cable,['abdominals'],[],strength,Cable_Russian_Twists
+Cable Seated Crunch,pull,beginner,isolation,cable,['abdominals'],[],strength,Cable_Seated_Crunch
+Cable Seated Lateral Raise,pull,beginner,isolation,cable,['shoulders'],"['middle back', 'traps']",strength,Cable_Seated_Lateral_Raise
+Cable Shoulder Press,push,beginner,compound,cable,['shoulders'],['triceps'],strength,Cable_Shoulder_Press
+Cable Shrugs,pull,beginner,isolation,cable,['traps'],[],strength,Cable_Shrugs
+Cable Wrist Curl,pull,beginner,isolation,cable,['forearms'],[],strength,Cable_Wrist_Curl
+Calf-Machine Shoulder Shrug,pull,beginner,isolation,machine,['traps'],[],strength,Calf-Machine_Shoulder_Shrug
+Calf Press,legs,beginner,isolation,machine,['calves'],[],strength,Calf_Press
+Calf Press On The Leg Press Machine,legs,beginner,isolation,machine,['calves'],[],strength,Calf_Press_On_The_Leg_Press_Machine
+Calf Raise On A Dumbbell,legs,intermediate,isolation,dumbbell,['calves'],[],strength,Calf_Raise_On_A_Dumbbell
+Calf Raises - With Bands,legs,beginner,isolation,bands,['calves'],[],strength,Calf_Raises_-_With_Bands
+Car Drivers,push,beginner,isolation,barbell,['shoulders'],['forearms'],strength,Car_Drivers
+Chair Squat,legs,beginner,compound,machine,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Chair_Squat
+Chin-Up,pull,beginner,compound,body only,['lats'],"['biceps', 'forearms', 'middle back']",strength,Chin-Up
+Clean and Press,push,intermediate,compound,barbell,['shoulders'],"['abdominals', 'calves', 'glutes', 'hamstrings', 'lower back', 'middle back', 'quadriceps', 'shoulders', 'traps', 'triceps']",strength,Clean_and_Press
+Clock Push-Up,push,intermediate,compound,body only,['chest'],"['shoulders', 'triceps']",strength,Clock_Push-Up
+Close-Grip Barbell Bench Press,push,beginner,compound,barbell,['triceps'],"['chest', 'shoulders']",strength,Close-Grip_Barbell_Bench_Press
+Close-Grip Dumbbell Press,push,beginner,compound,dumbbell,['triceps'],"['chest', 'shoulders']",strength,Close-Grip_Dumbbell_Press
+Close-Grip EZ-Bar Curl with Band,pull,beginner,isolation,e-z curl bar,['biceps'],['forearms'],strength,Close-Grip_EZ-Bar_Curl_with_Band
+Close-Grip EZ-Bar Press,push,beginner,compound,e-z curl bar,['triceps'],"['chest', 'shoulders']",strength,Close-Grip_EZ-Bar_Press
+Close-Grip EZ Bar Curl,pull,beginner,isolation,barbell,['biceps'],['forearms'],strength,Close-Grip_EZ_Bar_Curl
+Close-Grip Front Lat Pulldown,pull,beginner,compound,cable,['lats'],"['biceps', 'middle back', 'shoulders']",strength,Close-Grip_Front_Lat_Pulldown
+Close-Grip Push-Up off of a Dumbbell,push,intermediate,compound,body only,['triceps'],"['abdominals', 'chest', 'shoulders']",strength,Close-Grip_Push-Up_off_of_a_Dumbbell
+Close-Grip Standing Barbell Curl,pull,beginner,isolation,barbell,['biceps'],['forearms'],strength,Close-Grip_Standing_Barbell_Curl
+Cocoons,pull,beginner,compound,body only,['abdominals'],[],strength,Cocoons
+Concentration Curls,pull,beginner,isolation,dumbbell,['biceps'],['forearms'],strength,Concentration_Curls
+Cross-Body Crunch,pull,beginner,compound,body only,['abdominals'],[],strength,Cross-Body_Crunch
+Cross Body Hammer Curl,pull,beginner,isolation,dumbbell,['biceps'],['forearms'],strength,Cross_Body_Hammer_Curl
+Cross Over - With Bands,push,beginner,compound,bands,['chest'],"['biceps', 'shoulders']",strength,Cross_Over_-_With_Bands
+Crunch - Hands Overhead,pull,beginner,isolation,body only,['abdominals'],[],strength,Crunch_-_Hands_Overhead
+Crunch - Legs On Exercise Ball,pull,beginner,isolation,body only,['abdominals'],[],strength,Crunch_-_Legs_On_Exercise_Ball
+Crunches,pull,beginner,isolation,body only,['abdominals'],[],strength,Crunches
+Cuban Press,push,intermediate,compound,dumbbell,['shoulders'],['traps'],strength,Cuban_Press
+Dead Bug,pull,beginner,compound,body only,['abdominals'],[],strength,Dead_Bug
+Decline Barbell Bench Press,push,beginner,compound,barbell,['chest'],"['shoulders', 'triceps']",strength,Decline_Barbell_Bench_Press
+Decline Close-Grip Bench To Skull Crusher,push,intermediate,compound,barbell,['triceps'],"['chest', 'shoulders']",strength,Decline_Close-Grip_Bench_To_Skull_Crusher
+Decline Crunch,pull,intermediate,isolation,body only,['abdominals'],[],strength,Decline_Crunch
+Decline Dumbbell Bench Press,push,beginner,compound,dumbbell,['chest'],"['shoulders', 'triceps']",strength,Decline_Dumbbell_Bench_Press
+Decline Dumbbell Flyes,push,beginner,compound,dumbbell,['chest'],[],strength,Decline_Dumbbell_Flyes
+Decline Dumbbell Triceps Extension,push,beginner,isolation,dumbbell,['triceps'],[],strength,Decline_Dumbbell_Triceps_Extension
+Decline EZ Bar Triceps Extension,push,beginner,isolation,barbell,['triceps'],[],strength,Decline_EZ_Bar_Triceps_Extension
+Decline Oblique Crunch,pull,beginner,compound,body only,['abdominals'],[],strength,Decline_Oblique_Crunch
+Decline Push-Up,push,beginner,compound,,['chest'],"['shoulders', 'triceps']",strength,Decline_Push-Up
+Decline Reverse Crunch,pull,beginner,compound,body only,['abdominals'],[],strength,Decline_Reverse_Crunch
+Decline Smith Press,push,beginner,compound,machine,['chest'],"['shoulders', 'triceps']",strength,Decline_Smith_Press
+Dip Machine,push,beginner,compound,machine,['triceps'],"['chest', 'shoulders']",strength,Dip_Machine
+Dips - Chest Version,push,intermediate,compound,other,['chest'],"['shoulders', 'triceps']",strength,Dips_-_Chest_Version
+Dips - Triceps Version,push,beginner,compound,body only,['triceps'],"['chest', 'shoulders']",strength,Dips_-_Triceps_Version
+Donkey Calf Raises,legs,intermediate,isolation,other,['calves'],[],strength,Donkey_Calf_Raises
+Double Kettlebell Alternating Hang Clean,legs,intermediate,compound,kettlebells,['hamstrings'],"['biceps', 'calves', 'forearms', 'glutes', 'lower back', 'quadriceps', 'traps']",strength,Double_Kettlebell_Alternating_Hang_Clean
+Double Kettlebell Jerk,push,intermediate,compound,kettlebells,['shoulders'],"['calves', 'quadriceps', 'triceps']",strength,Double_Kettlebell_Jerk
+Double Kettlebell Push Press,push,intermediate,compound,kettlebells,['shoulders'],"['calves', 'quadriceps', 'triceps']",strength,Double_Kettlebell_Push_Press
+Double Kettlebell Snatch,pull,expert,compound,kettlebells,['shoulders'],"['glutes', 'hamstrings', 'quadriceps']",strength,Double_Kettlebell_Snatch
+Double Kettlebell Windmill,pull,intermediate,,kettlebells,['abdominals'],"['glutes', 'hamstrings', 'shoulders', 'triceps']",strength,Double_Kettlebell_Windmill
+Downward Facing Balance,legs,intermediate,isolation,exercise ball,['glutes'],"['abdominals', 'hamstrings']",strength,Downward_Facing_Balance
+Drag Curl,pull,intermediate,compound,barbell,['biceps'],['forearms'],strength,Drag_Curl
+Dumbbell Alternate Bicep Curl,pull,beginner,isolation,dumbbell,['biceps'],['forearms'],strength,Dumbbell_Alternate_Bicep_Curl
+Dumbbell Bench Press,push,beginner,compound,dumbbell,['chest'],"['shoulders', 'triceps']",strength,Dumbbell_Bench_Press
+Dumbbell Bench Press with Neutral Grip,push,beginner,compound,dumbbell,['chest'],"['shoulders', 'triceps']",strength,Dumbbell_Bench_Press_with_Neutral_Grip
+Dumbbell Bicep Curl,pull,beginner,isolation,dumbbell,['biceps'],['forearms'],strength,Dumbbell_Bicep_Curl
+Dumbbell Clean,legs,intermediate,compound,dumbbell,['hamstrings'],"['calves', 'forearms', 'glutes', 'lower back', 'quadriceps', 'shoulders', 'traps']",strength,Dumbbell_Clean
+Dumbbell Flyes,push,beginner,isolation,dumbbell,['chest'],[],strength,Dumbbell_Flyes
+Dumbbell Incline Row,pull,beginner,compound,dumbbell,['middle back'],"['biceps', 'forearms', 'lats', 'shoulders']",strength,Dumbbell_Incline_Row
+Dumbbell Incline Shoulder Raise,push,beginner,isolation,dumbbell,['shoulders'],['triceps'],strength,Dumbbell_Incline_Shoulder_Raise
+Dumbbell Lunges,legs,beginner,compound,dumbbell,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Dumbbell_Lunges
+Dumbbell Lying One-Arm Rear Lateral Raise,pull,intermediate,isolation,dumbbell,['shoulders'],['middle back'],strength,Dumbbell_Lying_One-Arm_Rear_Lateral_Raise
+Dumbbell Lying Pronation,pull,intermediate,isolation,dumbbell,['forearms'],[],strength,Dumbbell_Lying_Pronation
+Dumbbell Lying Rear Lateral Raise,pull,intermediate,isolation,dumbbell,['shoulders'],[],strength,Dumbbell_Lying_Rear_Lateral_Raise
+Dumbbell Lying Supination,pull,intermediate,isolation,dumbbell,['forearms'],[],strength,Dumbbell_Lying_Supination
+Dumbbell One-Arm Shoulder Press,push,intermediate,compound,dumbbell,['shoulders'],['triceps'],strength,Dumbbell_One-Arm_Shoulder_Press
+Dumbbell One-Arm Triceps Extension,push,intermediate,isolation,dumbbell,['triceps'],[],strength,Dumbbell_One-Arm_Triceps_Extension
+Dumbbell One-Arm Upright Row,pull,intermediate,compound,dumbbell,['shoulders'],"['biceps', 'traps']",strength,Dumbbell_One-Arm_Upright_Row
+Dumbbell Prone Incline Curl,pull,intermediate,isolation,dumbbell,['biceps'],[],strength,Dumbbell_Prone_Incline_Curl
+Dumbbell Raise,pull,beginner,compound,dumbbell,['shoulders'],['biceps'],strength,Dumbbell_Raise
+Dumbbell Rear Lunge,legs,intermediate,compound,dumbbell,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Dumbbell_Rear_Lunge
+Dumbbell Scaption,push,beginner,isolation,dumbbell,['shoulders'],['traps'],strength,Dumbbell_Scaption
+Dumbbell Seated One-Leg Calf Raise,legs,beginner,isolation,dumbbell,['calves'],[],strength,Dumbbell_Seated_One-Leg_Calf_Raise
+Dumbbell Shoulder Press,push,intermediate,compound,dumbbell,['shoulders'],['triceps'],strength,Dumbbell_Shoulder_Press
+Dumbbell Shrug,pull,beginner,isolation,dumbbell,['traps'],[],strength,Dumbbell_Shrug
+Dumbbell Side Bend,pull,beginner,isolation,dumbbell,['abdominals'],[],strength,Dumbbell_Side_Bend
+Dumbbell Squat,legs,beginner,compound,dumbbell,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'lower back']",strength,Dumbbell_Squat
+Dumbbell Squat To A Bench,legs,intermediate,compound,dumbbell,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'lower back']",strength,Dumbbell_Squat_To_A_Bench
+Dumbbell Step Ups,legs,intermediate,compound,dumbbell,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Dumbbell_Step_Ups
+Dumbbell Tricep Extension -Pronated Grip,push,beginner,isolation,dumbbell,['triceps'],[],strength,Dumbbell_Tricep_Extension_-Pronated_Grip
+EZ-Bar Curl,pull,beginner,isolation,e-z curl bar,['biceps'],[],strength,EZ-Bar_Curl
+EZ-Bar Skullcrusher,push,beginner,isolation,e-z curl bar,['triceps'],['forearms'],strength,EZ-Bar_Skullcrusher
+Elbow to Knee,pull,beginner,compound,body only,['abdominals'],[],strength,Elbow_to_Knee
+Elevated Back Lunge,legs,intermediate,compound,barbell,['quadriceps'],"['glutes', 'hamstrings']",strength,Elevated_Back_Lunge
+Elevated Cable Rows,pull,intermediate,compound,cable,['lats'],"['middle back', 'traps']",strength,Elevated_Cable_Rows
+Exercise Ball Crunch,pull,beginner,isolation,exercise ball,['abdominals'],[],strength,Exercise_Ball_Crunch
+Exercise Ball Pull-In,pull,beginner,compound,exercise ball,['abdominals'],[],strength,Exercise_Ball_Pull-In
+Extended Range One-Arm Kettlebell Floor Press,push,beginner,compound,kettlebells,['chest'],"['shoulders', 'triceps']",strength,Extended_Range_One-Arm_Kettlebell_Floor_Press
+External Rotation,pull,beginner,isolation,dumbbell,['shoulders'],[],strength,External_Rotation
+External Rotation with Band,pull,beginner,compound,bands,['shoulders'],[],strength,External_Rotation_with_Band
+External Rotation with Cable,pull,beginner,isolation,cable,['shoulders'],[],strength,External_Rotation_with_Cable
+Face Pull,pull,intermediate,compound,cable,['shoulders'],['middle back'],strength,Face_Pull
+Finger Curls,pull,beginner,isolation,barbell,['forearms'],[],strength,Finger_Curls
+Flat Bench Cable Flyes,push,intermediate,isolation,cable,['chest'],[],strength,Flat_Bench_Cable_Flyes
+Flat Bench Leg Pull-In,pull,beginner,compound,body only,['abdominals'],[],strength,Flat_Bench_Leg_Pull-In
+Flat Bench Lying Leg Raise,pull,beginner,isolation,body only,['abdominals'],[],strength,Flat_Bench_Lying_Leg_Raise
+Flexor Incline Dumbbell Curls,pull,beginner,isolation,dumbbell,['biceps'],[],strength,Flexor_Incline_Dumbbell_Curls
+Floor Glute-Ham Raise,legs,intermediate,isolation,,['hamstrings'],"['calves', 'glutes']",strength,Floor_Glute-Ham_Raise
+Flutter Kicks,legs,beginner,compound,body only,['glutes'],['hamstrings'],strength,Flutter_Kicks
+Freehand Jump Squat,legs,intermediate,compound,body only,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Freehand_Jump_Squat
+Frog Sit-Ups,pull,intermediate,isolation,body only,['abdominals'],[],strength,Frog_Sit-Ups
+Front Barbell Squat,legs,expert,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Front_Barbell_Squat
+Front Barbell Squat To A Bench,legs,expert,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Front_Barbell_Squat_To_A_Bench
+Front Cable Raise,push,beginner,isolation,cable,['shoulders'],[],strength,Front_Cable_Raise
+Front Dumbbell Raise,push,beginner,isolation,dumbbell,['shoulders'],[],strength,Front_Dumbbell_Raise
+Front Incline Dumbbell Raise,push,beginner,isolation,dumbbell,['shoulders'],[],strength,Front_Incline_Dumbbell_Raise
+Front Plate Raise,push,intermediate,isolation,other,['shoulders'],[],strength,Front_Plate_Raise
+Front Raise And Pullover,pull,beginner,compound,barbell,['chest'],"['lats', 'shoulders', 'triceps']",strength,Front_Raise_And_Pullover
+Front Squat (Clean Grip),legs,intermediate,compound,barbell,['quadriceps'],"['abdominals', 'glutes', 'hamstrings']",strength,Front_Squat_Clean_Grip
+Front Squats With Two Kettlebells,legs,intermediate,compound,kettlebells,['quadriceps'],"['calves', 'glutes']",strength,Front_Squats_With_Two_Kettlebells
+Front Two-Dumbbell Raise,push,beginner,isolation,dumbbell,['shoulders'],[],strength,Front_Two-Dumbbell_Raise
+Full Range-Of-Motion Lat Pulldown,pull,intermediate,compound,cable,['lats'],"['biceps', 'middle back', 'shoulders']",strength,Full_Range-Of-Motion_Lat_Pulldown
+Gironda Sternum Chins,pull,intermediate,compound,other,['lats'],"['biceps', 'middle back']",strength,Gironda_Sternum_Chins
+Glute Kickback,legs,beginner,compound,body only,['glutes'],['hamstrings'],strength,Glute_Kickback
+Goblet Squat,legs,beginner,compound,kettlebells,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'shoulders']",strength,Goblet_Squat
+Gorilla Chin/Crunch,pull,intermediate,compound,body only,['abdominals'],"['biceps', 'lats']",strength,Gorilla_Chin_Crunch
+Hack Squat,legs,beginner,compound,machine,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Hack_Squat
+Hammer Curls,pull,beginner,isolation,dumbbell,['biceps'],[],strength,Hammer_Curls
+Hammer Grip Incline DB Bench Press,push,beginner,compound,dumbbell,['chest'],"['shoulders', 'triceps']",strength,Hammer_Grip_Incline_DB_Bench_Press
+Handstand Push-Ups,push,expert,compound,body only,['shoulders'],['triceps'],strength,Handstand_Push-Ups
+Hanging Leg Raise,pull,expert,isolation,body only,['abdominals'],[],strength,Hanging_Leg_Raise
+Hanging Pike,pull,expert,compound,body only,['abdominals'],[],strength,Hanging_Pike
+High Cable Curls,pull,intermediate,compound,cable,['biceps'],[],strength,High_Cable_Curls
+Hip Extension with Bands,legs,beginner,compound,bands,['glutes'],['hamstrings'],strength,Hip_Extension_with_Bands
+Hip Flexion with Band,legs,beginner,compound,bands,['quadriceps'],[],strength,Hip_Flexion_with_Band
+Hyperextensions (Back Extensions),pull,beginner,isolation,other,['lower back'],"['glutes', 'hamstrings']",strength,Hyperextensions_Back_Extensions
+Hyperextensions With No Hyperextension Bench,pull,intermediate,compound,body only,['lower back'],"['glutes', 'hamstrings']",strength,Hyperextensions_With_No_Hyperextension_Bench
+Incline Barbell Triceps Extension,push,intermediate,isolation,barbell,['triceps'],['forearms'],strength,Incline_Barbell_Triceps_Extension
+Incline Bench Pull,pull,beginner,isolation,barbell,['middle back'],"['lats', 'shoulders']",strength,Incline_Bench_Pull
+Incline Cable Chest Press,push,beginner,compound,cable,['chest'],"['shoulders', 'triceps']",strength,Incline_Cable_Chest_Press
+Incline Cable Flye,push,intermediate,isolation,cable,['chest'],['shoulders'],strength,Incline_Cable_Flye
+Incline Dumbbell Bench With Palms Facing In,push,beginner,compound,dumbbell,['chest'],"['shoulders', 'triceps']",strength,Incline_Dumbbell_Bench_With_Palms_Facing_In
+Incline Dumbbell Curl,pull,beginner,isolation,dumbbell,['biceps'],[],strength,Incline_Dumbbell_Curl
+Incline Dumbbell Flyes,push,beginner,compound,dumbbell,['chest'],['shoulders'],strength,Incline_Dumbbell_Flyes
+Incline Dumbbell Flyes - With A Twist,push,beginner,compound,dumbbell,['chest'],['shoulders'],strength,Incline_Dumbbell_Flyes_-_With_A_Twist
+Incline Dumbbell Press,push,beginner,compound,dumbbell,['chest'],"['shoulders', 'triceps']",strength,Incline_Dumbbell_Press
+Incline Hammer Curls,pull,beginner,isolation,dumbbell,['biceps'],[],strength,Incline_Hammer_Curls
+Incline Inner Biceps Curl,,beginner,isolation,dumbbell,['biceps'],[],strength,Incline_Inner_Biceps_Curl
+Incline Push-Up,push,beginner,compound,body only,['chest'],"['shoulders', 'triceps']",strength,Incline_Push-Up
+Incline Push-Up Close-Grip,push,beginner,compound,body only,['triceps'],"['chest', 'shoulders']",strength,Incline_Push-Up_Close-Grip
+Incline Push-Up Medium,push,beginner,compound,body only,['chest'],"['abdominals', 'shoulders', 'triceps']",strength,Incline_Push-Up_Medium
+Incline Push-Up Reverse Grip,push,beginner,compound,body only,['chest'],"['abdominals', 'shoulders', 'triceps']",strength,Incline_Push-Up_Reverse_Grip
+Incline Push-Up Wide,push,beginner,compound,body only,['chest'],"['abdominals', 'shoulders', 'triceps']",strength,Incline_Push-Up_Wide
+Internal Rotation with Band,,beginner,isolation,bands,['shoulders'],[],strength,Internal_Rotation_with_Band
+Inverted Row,pull,beginner,compound,,['middle back'],['lats'],strength,Inverted_Row
+Inverted Row with Straps,pull,beginner,compound,other,['middle back'],"['biceps', 'lats']",strength,Inverted_Row_with_Straps
+Iron Cross,push,intermediate,compound,dumbbell,['shoulders'],"['chest', 'glutes', 'hamstrings', 'lower back', 'quadriceps', 'traps']",strength,Iron_Cross
+Isometric Neck Exercise - Front And Back,static,beginner,isolation,body only,['neck'],[],strength,Isometric_Neck_Exercise_-_Front_And_Back
+Isometric Neck Exercise - Sides,static,beginner,isolation,body only,['neck'],[],strength,Isometric_Neck_Exercise_-_Sides
+Isometric Wipers,push,beginner,compound,body only,['chest'],"['abdominals', 'shoulders', 'triceps']",strength,Isometric_Wipers
+JM Press,push,beginner,compound,barbell,['triceps'],"['chest', 'shoulders']",strength,JM_Press
+Jackknife Sit-Up,pull,beginner,compound,body only,['abdominals'],[],strength,Jackknife_Sit-Up
+Janda Sit-Up,pull,beginner,isolation,body only,['abdominals'],[],strength,Janda_Sit-Up
+Jefferson Squats,legs,intermediate,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'lower back', 'traps']",strength,Jefferson_Squats
+Kettlebell Arnold Press,push,intermediate,compound,kettlebells,['shoulders'],['triceps'],strength,Kettlebell_Arnold_Press
+Kettlebell Dead Clean,legs,intermediate,compound,kettlebells,['hamstrings'],"['calves', 'glutes', 'lower back', 'quadriceps', 'traps']",strength,Kettlebell_Dead_Clean
+Kettlebell Figure 8,pull,intermediate,,kettlebells,['abdominals'],"['hamstrings', 'shoulders']",strength,Kettlebell_Figure_8
+Kettlebell Hang Clean,legs,intermediate,compound,kettlebells,['hamstrings'],"['calves', 'glutes', 'lower back', 'shoulders', 'traps']",strength,Kettlebell_Hang_Clean
+Kettlebell One-Legged Deadlift,legs,intermediate,compound,kettlebells,['hamstrings'],"['glutes', 'lower back']",strength,Kettlebell_One-Legged_Deadlift
+Kettlebell Pass Between The Legs,pull,intermediate,compound,kettlebells,['abdominals'],"['glutes', 'hamstrings', 'shoulders']",strength,Kettlebell_Pass_Between_The_Legs
+Kettlebell Pirate Ships,push,beginner,compound,kettlebells,['shoulders'],['abdominals'],strength,Kettlebell_Pirate_Ships
+Kettlebell Pistol Squat,legs,expert,compound,kettlebells,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'shoulders']",strength,Kettlebell_Pistol_Squat
+Kettlebell Seated Press,push,intermediate,compound,kettlebells,['shoulders'],['triceps'],strength,Kettlebell_Seated_Press
+Kettlebell Seesaw Press,push,intermediate,compound,kettlebells,['shoulders'],['triceps'],strength,Kettlebell_Seesaw_Press
+Kettlebell Sumo High Pull,pull,intermediate,compound,kettlebells,['traps'],"['adductors', 'glutes', 'hamstrings', 'quadriceps', 'shoulders']",strength,Kettlebell_Sumo_High_Pull
+Kettlebell Thruster,push,intermediate,compound,kettlebells,['shoulders'],"['quadriceps', 'triceps']",strength,Kettlebell_Thruster
+Kettlebell Turkish Get-Up (Lunge style),push,intermediate,compound,kettlebells,['shoulders'],"['abdominals', 'hamstrings', 'quadriceps', 'triceps']",strength,Kettlebell_Turkish_Get-Up_Lunge_style
+Kettlebell Turkish Get-Up (Squat style),push,intermediate,compound,kettlebells,['shoulders'],"['abdominals', 'calves', 'hamstrings', 'quadriceps', 'triceps']",strength,Kettlebell_Turkish_Get-Up_Squat_style
+Kettlebell Windmill,pull,intermediate,compound,kettlebells,['abdominals'],"['glutes', 'hamstrings', 'shoulders', 'triceps']",strength,Kettlebell_Windmill
+Kipping Muscle Up,pull,intermediate,compound,other,['lats'],"['abdominals', 'biceps', 'forearms', 'middle back', 'shoulders', 'traps', 'triceps']",strength,Kipping_Muscle_Up
+Knee/Hip Raise On Parallel Bars,pull,beginner,isolation,other,['abdominals'],[],strength,Knee_Hip_Raise_On_Parallel_Bars
+Kneeling Cable Crunch With Alternating Oblique Twists,pull,beginner,isolation,cable,['abdominals'],[],strength,Kneeling_Cable_Crunch_With_Alternating_Oblique_Twists
+Kneeling Cable Triceps Extension,push,intermediate,isolation,cable,['triceps'],[],strength,Kneeling_Cable_Triceps_Extension
+Kneeling High Pulley Row,pull,beginner,compound,cable,['lats'],"['biceps', 'middle back']",strength,Kneeling_High_Pulley_Row
+Kneeling Single-Arm High Pulley Row,pull,beginner,compound,cable,['lats'],"['biceps', 'middle back']",strength,Kneeling_Single-Arm_High_Pulley_Row
+Landmine 180's,pull,beginner,compound,barbell,['abdominals'],"['glutes', 'lower back', 'shoulders']",strength,Landmine_180s
+Landmine Linear Jammer,push,intermediate,compound,barbell,['shoulders'],"['abdominals', 'calves', 'chest', 'hamstrings', 'quadriceps', 'triceps']",strength,Landmine_Linear_Jammer
+Lateral Raise - With Bands,push,beginner,isolation,bands,['shoulders'],[],strength,Lateral_Raise_-_With_Bands
+Leg-Over Floor Press,push,intermediate,compound,kettlebells,['chest'],"['shoulders', 'triceps']",strength,Leg-Over_Floor_Press
+Leg Extensions,legs,beginner,isolation,machine,['quadriceps'],[],strength,Leg_Extensions
+Leg Lift,legs,beginner,isolation,body only,['glutes'],['hamstrings'],strength,Leg_Lift
+Leg Press,legs,beginner,compound,machine,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Leg_Press
+Leg Pull-In,pull,beginner,compound,body only,['abdominals'],[],strength,Leg_Pull-In
+Leverage Chest Press,push,beginner,compound,machine,['chest'],"['shoulders', 'triceps']",strength,Leverage_Chest_Press
+Leverage Deadlift,legs,beginner,compound,machine,['quadriceps'],"['glutes', 'hamstrings']",strength,Leverage_Deadlift
+Leverage Decline Chest Press,push,beginner,compound,machine,['chest'],"['shoulders', 'triceps']",strength,Leverage_Decline_Chest_Press
+Leverage High Row,pull,beginner,compound,machine,['middle back'],['lats'],strength,Leverage_High_Row
+Leverage Incline Chest Press,push,beginner,compound,machine,['chest'],"['shoulders', 'triceps']",strength,Leverage_Incline_Chest_Press
+Leverage Iso Row,pull,beginner,compound,machine,['lats'],"['biceps', 'middle back']",strength,Leverage_Iso_Row
+Leverage Shoulder Press,push,beginner,compound,machine,['shoulders'],['triceps'],strength,Leverage_Shoulder_Press
+Leverage Shrug,pull,beginner,isolation,machine,['traps'],['forearms'],strength,Leverage_Shrug
+London Bridges,pull,intermediate,compound,other,['lats'],"['biceps', 'forearms', 'middle back']",strength,London_Bridges
+Low Cable Crossover,push,beginner,isolation,cable,['chest'],['shoulders'],strength,Low_Cable_Crossover
+Low Cable Triceps Extension,push,beginner,isolation,cable,['triceps'],[],strength,Low_Cable_Triceps_Extension
+Low Pulley Row To Neck,pull,beginner,compound,cable,['shoulders'],"['biceps', 'middle back', 'traps']",strength,Low_Pulley_Row_To_Neck
+Lunge Pass Through,legs,intermediate,compound,kettlebells,['hamstrings'],"['calves', 'glutes', 'quadriceps']",strength,Lunge_Pass_Through
+Lunge Sprint,legs,intermediate,compound,machine,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Lunge_Sprint
+Lying Cable Curl,pull,intermediate,isolation,cable,['biceps'],[],strength,Lying_Cable_Curl
+Lying Cambered Barbell Row,pull,beginner,isolation,barbell,['middle back'],"['biceps', 'lats', 'traps']",strength,Lying_Cambered_Barbell_Row
+Lying Close-Grip Bar Curl On High Pulley,pull,beginner,isolation,cable,['biceps'],[],strength,Lying_Close-Grip_Bar_Curl_On_High_Pulley
+Lying Close-Grip Barbell Triceps Extension Behind The Head,push,intermediate,isolation,barbell,['triceps'],[],strength,Lying_Close-Grip_Barbell_Triceps_Extension_Behind_The_Head
+Lying Close-Grip Barbell Triceps Press To Chin,push,intermediate,isolation,e-z curl bar,['triceps'],[],strength,Lying_Close-Grip_Barbell_Triceps_Press_To_Chin
+Lying Dumbbell Tricep Extension,push,intermediate,isolation,dumbbell,['triceps'],"['chest', 'shoulders']",strength,Lying_Dumbbell_Tricep_Extension
+Lying Face Down Plate Neck Resistance,pull,intermediate,isolation,other,['neck'],[],strength,Lying_Face_Down_Plate_Neck_Resistance
+Lying Face Up Plate Neck Resistance,pull,intermediate,isolation,other,['neck'],[],strength,Lying_Face_Up_Plate_Neck_Resistance
+Lying High Bench Barbell Curl,pull,intermediate,isolation,barbell,['biceps'],[],strength,Lying_High_Bench_Barbell_Curl
+Lying Leg Curls,legs,beginner,isolation,machine,['hamstrings'],[],strength,Lying_Leg_Curls
+Lying Machine Squat,legs,intermediate,compound,machine,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Lying_Machine_Squat
+Lying One-Arm Lateral Raise,pull,intermediate,isolation,dumbbell,['shoulders'],[],strength,Lying_One-Arm_Lateral_Raise
+Lying Rear Delt Raise,pull,intermediate,isolation,dumbbell,['shoulders'],[],strength,Lying_Rear_Delt_Raise
+Lying Supine Dumbbell Curl,pull,beginner,isolation,dumbbell,['biceps'],[],strength,Lying_Supine_Dumbbell_Curl
+Lying T-Bar Row,pull,intermediate,compound,machine,['middle back'],"['biceps', 'lats']",strength,Lying_T-Bar_Row
+Lying Triceps Press,push,intermediate,isolation,e-z curl bar,['triceps'],[],strength,Lying_Triceps_Press
+Machine Bench Press,push,beginner,compound,machine,['chest'],"['shoulders', 'triceps']",strength,Machine_Bench_Press
+Machine Bicep Curl,pull,beginner,isolation,machine,['biceps'],[],strength,Machine_Bicep_Curl
+Machine Preacher Curls,pull,beginner,isolation,machine,['biceps'],[],strength,Machine_Preacher_Curls
+Machine Shoulder (Military) Press,push,beginner,compound,machine,['shoulders'],['triceps'],strength,Machine_Shoulder_Military_Press
+Machine Triceps Extension,push,beginner,isolation,machine,['triceps'],[],strength,Machine_Triceps_Extension
+Middle Back Shrug,pull,intermediate,isolation,dumbbell,['middle back'],[],strength,Middle_Back_Shrug
+Mixed Grip Chin,pull,expert,compound,other,['middle back'],"['biceps', 'lats']",strength,Mixed_Grip_Chin
+Monster Walk,legs,beginner,compound,bands,['abductors'],[],strength,Monster_Walk
+Muscle Up,pull,intermediate,compound,other,['lats'],"['abdominals', 'biceps', 'forearms', 'middle back', 'shoulders', 'traps', 'triceps']",strength,Muscle_Up
+Narrow Stance Hack Squats,legs,intermediate,compound,machine,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Narrow_Stance_Hack_Squats
+Narrow Stance Leg Press,legs,intermediate,compound,machine,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Narrow_Stance_Leg_Press
+Narrow Stance Squats,legs,intermediate,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'lower back']",strength,Narrow_Stance_Squats
+Natural Glute Ham Raise,legs,intermediate,compound,body only,['hamstrings'],"['calves', 'glutes', 'lower back']",strength,Natural_Glute_Ham_Raise
+Neck Press,push,intermediate,compound,barbell,['chest'],"['shoulders', 'triceps']",strength,Neck_Press
+Oblique Crunches,pull,beginner,isolation,body only,['abdominals'],[],strength,Oblique_Crunches
+Oblique Crunches - On The Floor,pull,beginner,isolation,body only,['abdominals'],[],strength,Oblique_Crunches_-_On_The_Floor
+One-Arm Dumbbell Row,pull,beginner,compound,dumbbell,['middle back'],"['biceps', 'lats', 'shoulders']",strength,One-Arm_Dumbbell_Row
+One-Arm Flat Bench Dumbbell Flye,push,beginner,isolation,dumbbell,['chest'],[],strength,One-Arm_Flat_Bench_Dumbbell_Flye
+One-Arm High-Pulley Cable Side Bends,pull,beginner,isolation,cable,['abdominals'],[],strength,One-Arm_High-Pulley_Cable_Side_Bends
+One-Arm Incline Lateral Raise,push,beginner,isolation,dumbbell,['shoulders'],[],strength,One-Arm_Incline_Lateral_Raise
+One-Arm Kettlebell Clean,legs,intermediate,compound,kettlebells,['hamstrings'],"['glutes', 'lower back', 'shoulders', 'traps']",strength,One-Arm_Kettlebell_Clean
+One-Arm Kettlebell Clean and Jerk,push,intermediate,compound,kettlebells,['shoulders'],[],strength,One-Arm_Kettlebell_Clean_and_Jerk
+One-Arm Kettlebell Floor Press,push,intermediate,compound,kettlebells,['chest'],['triceps'],strength,One-Arm_Kettlebell_Floor_Press
+One-Arm Kettlebell Jerk,push,intermediate,compound,kettlebells,['shoulders'],"['calves', 'quadriceps', 'triceps']",strength,One-Arm_Kettlebell_Jerk
+One-Arm Kettlebell Military Press To The Side,push,intermediate,compound,kettlebells,['shoulders'],['triceps'],strength,One-Arm_Kettlebell_Military_Press_To_The_Side
+One-Arm Kettlebell Para Press,push,intermediate,compound,kettlebells,['shoulders'],['triceps'],strength,One-Arm_Kettlebell_Para_Press
+One-Arm Kettlebell Push Press,push,intermediate,compound,kettlebells,['shoulders'],"['calves', 'quadriceps', 'triceps']",strength,One-Arm_Kettlebell_Push_Press
+One-Arm Kettlebell Row,pull,intermediate,compound,kettlebells,['middle back'],"['biceps', 'lats']",strength,One-Arm_Kettlebell_Row
+One-Arm Kettlebell Snatch,pull,expert,compound,kettlebells,['shoulders'],"['calves', 'glutes', 'hamstrings', 'lower back', 'traps', 'triceps']",strength,One-Arm_Kettlebell_Snatch
+One-Arm Kettlebell Split Jerk,push,intermediate,compound,kettlebells,['shoulders'],"['glutes', 'hamstrings', 'quadriceps', 'triceps']",strength,One-Arm_Kettlebell_Split_Jerk
+One-Arm Kettlebell Split Snatch,pull,expert,compound,kettlebells,['shoulders'],"['hamstrings', 'quadriceps']",strength,One-Arm_Kettlebell_Split_Snatch
+One-Arm Kettlebell Swings,legs,intermediate,compound,kettlebells,['hamstrings'],"['calves', 'glutes', 'lower back', 'shoulders']",strength,One-Arm_Kettlebell_Swings
+One-Arm Long Bar Row,pull,beginner,compound,barbell,['middle back'],"['biceps', 'lats']",strength,One-Arm_Long_Bar_Row
+One-Arm Medicine Ball Slam,pull,beginner,compound,medicine ball,['abdominals'],"['lats', 'shoulders']",strength,One-Arm_Medicine_Ball_Slam
+One-Arm Open Palm Kettlebell Clean,legs,intermediate,compound,kettlebells,['hamstrings'],"['forearms', 'glutes', 'lower back', 'quadriceps', 'shoulders']",strength,One-Arm_Open_Palm_Kettlebell_Clean
+One-Arm Overhead Kettlebell Squats,legs,expert,compound,kettlebells,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'shoulders']",strength,One-Arm_Overhead_Kettlebell_Squats
+One-Arm Side Deadlift,legs,expert,compound,barbell,['quadriceps'],"['abdominals', 'calves', 'glutes', 'hamstrings', 'lower back', 'traps']",strength,One-Arm_Side_Deadlift
+One-Arm Side Laterals,push,beginner,isolation,dumbbell,['shoulders'],[],strength,One-Arm_Side_Laterals
+One-Legged Cable Kickback,legs,intermediate,isolation,cable,['glutes'],['hamstrings'],strength,One-Legged_Cable_Kickback
+One Arm Chin-Up,pull,expert,compound,other,['middle back'],"['biceps', 'forearms', 'lats']",strength,One_Arm_Chin-Up
+One Arm Dumbbell Bench Press,push,beginner,compound,dumbbell,['chest'],"['shoulders', 'triceps']",strength,One_Arm_Dumbbell_Bench_Press
+One Arm Dumbbell Preacher Curl,pull,beginner,isolation,dumbbell,['biceps'],[],strength,One_Arm_Dumbbell_Preacher_Curl
+One Arm Floor Press,push,intermediate,compound,barbell,['triceps'],"['chest', 'shoulders']",strength,One_Arm_Floor_Press
+One Arm Lat Pulldown,pull,beginner,compound,cable,['lats'],"['biceps', 'middle back']",strength,One_Arm_Lat_Pulldown
+One Arm Pronated Dumbbell Triceps Extension,push,beginner,isolation,dumbbell,['triceps'],[],strength,One_Arm_Pronated_Dumbbell_Triceps_Extension
+One Arm Supinated Dumbbell Triceps Extension,push,beginner,isolation,dumbbell,['triceps'],[],strength,One_Arm_Supinated_Dumbbell_Triceps_Extension
+One Leg Barbell Squat,legs,expert,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,One_Leg_Barbell_Squat
+Open Palm Kettlebell Clean,legs,expert,compound,kettlebells,['hamstrings'],"['glutes', 'lower back', 'quadriceps', 'shoulders']",strength,Open_Palm_Kettlebell_Clean
+Otis-Up,pull,beginner,compound,other,['abdominals'],"['chest', 'shoulders', 'triceps']",strength,Otis-Up
+Overhead Cable Curl,pull,intermediate,isolation,cable,['biceps'],[],strength,Overhead_Cable_Curl
+Pallof Press,pull,beginner,isolation,cable,['abdominals'],"['chest', 'shoulders', 'triceps']",strength,Pallof_Press
+Pallof Press With Rotation,pull,beginner,compound,cable,['abdominals'],"['chest', 'shoulders', 'triceps']",strength,Pallof_Press_With_Rotation
+Palms-Down Dumbbell Wrist Curl Over A Bench,pull,beginner,isolation,dumbbell,['forearms'],[],strength,Palms-Down_Dumbbell_Wrist_Curl_Over_A_Bench
+Palms-Down Wrist Curl Over A Bench,pull,beginner,isolation,barbell,['forearms'],[],strength,Palms-Down_Wrist_Curl_Over_A_Bench
+Palms-Up Barbell Wrist Curl Over A Bench,pull,beginner,isolation,barbell,['forearms'],[],strength,Palms-Up_Barbell_Wrist_Curl_Over_A_Bench
+Palms-Up Dumbbell Wrist Curl Over A Bench,pull,beginner,isolation,dumbbell,['forearms'],[],strength,Palms-Up_Dumbbell_Wrist_Curl_Over_A_Bench
+Parallel Bar Dip,push,beginner,compound,other,['triceps'],"['chest', 'shoulders']",strength,Parallel_Bar_Dip
+Physioball Hip Bridge,legs,beginner,compound,exercise ball,['glutes'],['hamstrings'],strength,Physioball_Hip_Bridge
+Plank,static,beginner,isolation,body only,['abdominals'],[],strength,Plank
+Plate Pinch,static,intermediate,isolation,other,['forearms'],[],strength,Plate_Pinch
+Plate Twist,pull,intermediate,compound,other,['abdominals'],[],strength,Plate_Twist
+Platform Hamstring Slides,legs,beginner,isolation,other,['hamstrings'],['glutes'],strength,Platform_Hamstring_Slides
+Plie Dumbbell Squat,legs,beginner,compound,dumbbell,['quadriceps'],"['abdominals', 'calves', 'glutes', 'hamstrings']",strength,Plie_Dumbbell_Squat
+Plyo Kettlebell Pushups,push,expert,compound,kettlebells,['chest'],"['shoulders', 'triceps']",strength,Plyo_Kettlebell_Pushups
+Power Clean,legs,intermediate,compound,barbell,['hamstrings'],"['calves', 'forearms', 'glutes', 'lower back', 'middle back', 'quadriceps', 'shoulders', 'traps', 'triceps']",strength,Power_Clean
+Power Partials,push,beginner,isolation,dumbbell,['shoulders'],[],strength,Power_Partials
+Preacher Curl,pull,beginner,isolation,barbell,['biceps'],[],strength,Preacher_Curl
+Preacher Hammer Dumbbell Curl,pull,beginner,isolation,dumbbell,['biceps'],['forearms'],strength,Preacher_Hammer_Dumbbell_Curl
+Press Sit-Up,push,expert,compound,barbell,['abdominals'],"['chest', 'shoulders', 'triceps']",strength,Press_Sit-Up
+Prone Manual Hamstring,legs,beginner,isolation,,['hamstrings'],[],strength,Prone_Manual_Hamstring
+Pull Through,legs,beginner,compound,cable,['glutes'],"['hamstrings', 'lower back']",strength,Pull_Through
+Pullups,pull,beginner,compound,body only,['lats'],"['biceps', 'middle back']",strength,Pullups
+Push-Up Wide,,beginner,compound,body only,['chest'],"['abdominals', 'shoulders', 'triceps']",strength,Push-Up_Wide
+Push-Ups - Close Triceps Position,push,intermediate,compound,body only,['triceps'],"['chest', 'shoulders']",strength,Push-Ups_-_Close_Triceps_Position
+Push-Ups With Feet Elevated,push,beginner,compound,body only,['chest'],"['shoulders', 'triceps']",strength,Push-Ups_With_Feet_Elevated
+Push-Ups With Feet On An Exercise Ball,push,intermediate,compound,exercise ball,['chest'],"['shoulders', 'triceps']",strength,Push-Ups_With_Feet_On_An_Exercise_Ball
+Push Up to Side Plank,push,beginner,compound,body only,['chest'],"['abdominals', 'shoulders', 'triceps']",strength,Push_Up_to_Side_Plank
+Pushups,push,beginner,compound,body only,['chest'],"['shoulders', 'triceps']",strength,Pushups
+Pushups (Close and Wide Hand Positions),push,beginner,compound,body only,['chest'],"['shoulders', 'triceps']",strength,Pushups_Close_and_Wide_Hand_Positions
+Reverse Barbell Curl,pull,beginner,isolation,barbell,['biceps'],['forearms'],strength,Reverse_Barbell_Curl
+Reverse Barbell Preacher Curls,pull,intermediate,isolation,e-z curl bar,['biceps'],['forearms'],strength,Reverse_Barbell_Preacher_Curls
+Reverse Cable Curl,pull,beginner,isolation,cable,['biceps'],['forearms'],strength,Reverse_Cable_Curl
+Reverse Crunch,pull,beginner,isolation,body only,['abdominals'],[],strength,Reverse_Crunch
+Reverse Flyes,pull,beginner,isolation,dumbbell,['shoulders'],[],strength,Reverse_Flyes
+Reverse Flyes With External Rotation,pull,intermediate,isolation,dumbbell,['shoulders'],[],strength,Reverse_Flyes_With_External_Rotation
+Reverse Grip Bent-Over Rows,pull,intermediate,compound,barbell,['middle back'],"['biceps', 'lats', 'shoulders']",strength,Reverse_Grip_Bent-Over_Rows
+Reverse Grip Triceps Pushdown,push,beginner,isolation,cable,['triceps'],[],strength,Reverse_Grip_Triceps_Pushdown
+Reverse Hyperextension,legs,intermediate,,machine,['hamstrings'],"['calves', 'glutes']",strength,Reverse_Hyperextension
+Reverse Machine Flyes,pull,beginner,isolation,machine,['shoulders'],[],strength,Reverse_Machine_Flyes
+Reverse Plate Curls,pull,beginner,isolation,other,['biceps'],['forearms'],strength,Reverse_Plate_Curls
+Reverse Triceps Bench Press,push,intermediate,compound,barbell,['triceps'],"['chest', 'shoulders']",strength,Reverse_Triceps_Bench_Press
+Ring Dips,push,intermediate,compound,other,['triceps'],"['chest', 'shoulders']",strength,Ring_Dips
+Rocking Standing Calf Raise,legs,beginner,isolation,barbell,['calves'],[],strength,Rocking_Standing_Calf_Raise
+Rocky Pull-Ups/Pulldowns,pull,intermediate,compound,other,['lats'],"['biceps', 'middle back', 'shoulders']",strength,Rocky_Pull-Ups_Pulldowns
+Romanian Deadlift,legs,intermediate,compound,barbell,['hamstrings'],"['calves', 'glutes', 'lower back']",strength,Romanian_Deadlift
+Rope Climb,pull,intermediate,compound,other,['lats'],"['biceps', 'forearms', 'middle back', 'shoulders']",strength,Rope_Climb
+Rope Crunch,pull,beginner,isolation,cable,['abdominals'],[],strength,Rope_Crunch
+Rope Straight-Arm Pulldown,pull,beginner,isolation,cable,['lats'],[],strength,Rope_Straight-Arm_Pulldown
+Russian Twist,pull,intermediate,compound,body only,['abdominals'],['lower back'],strength,Russian_Twist
+Scapular Pull-Up,pull,beginner,isolation,,['traps'],"['lats', 'middle back']",strength,Scapular_Pull-Up
+Seated Band Hamstring Curl,legs,beginner,isolation,other,['hamstrings'],[],strength,Seated_Band_Hamstring_Curl
+Seated Barbell Military Press,push,intermediate,compound,barbell,['shoulders'],['triceps'],strength,Seated_Barbell_Military_Press
+Seated Barbell Twist,pull,beginner,isolation,barbell,['abdominals'],[],strength,Seated_Barbell_Twist
+Seated Bent-Over One-Arm Dumbbell Triceps Extension,push,beginner,isolation,dumbbell,['triceps'],[],strength,Seated_Bent-Over_One-Arm_Dumbbell_Triceps_Extension
+Seated Bent-Over Rear Delt Raise,pull,intermediate,isolation,dumbbell,['shoulders'],[],strength,Seated_Bent-Over_Rear_Delt_Raise
+Seated Bent-Over Two-Arm Dumbbell Triceps Extension,push,intermediate,isolation,dumbbell,['triceps'],[],strength,Seated_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension
+Seated Cable Rows,pull,beginner,compound,cable,['middle back'],"['biceps', 'lats', 'shoulders']",strength,Seated_Cable_Rows
+Seated Cable Shoulder Press,push,beginner,compound,cable,['shoulders'],['triceps'],strength,Seated_Cable_Shoulder_Press
+Seated Calf Raise,legs,beginner,isolation,machine,['calves'],[],strength,Seated_Calf_Raise
+Seated Close-Grip Concentration Barbell Curl,pull,intermediate,isolation,barbell,['biceps'],[],strength,Seated_Close-Grip_Concentration_Barbell_Curl
+Seated Dumbbell Curl,pull,beginner,isolation,dumbbell,['biceps'],[],strength,Seated_Dumbbell_Curl
+Seated Dumbbell Inner Biceps Curl,pull,beginner,isolation,dumbbell,['biceps'],[],strength,Seated_Dumbbell_Inner_Biceps_Curl
+Seated Dumbbell Palms-Down Wrist Curl,pull,beginner,isolation,dumbbell,['forearms'],[],strength,Seated_Dumbbell_Palms-Down_Wrist_Curl
+Seated Dumbbell Palms-Up Wrist Curl,pull,beginner,isolation,dumbbell,['forearms'],[],strength,Seated_Dumbbell_Palms-Up_Wrist_Curl
+Seated Dumbbell Press,push,beginner,compound,dumbbell,['shoulders'],['triceps'],strength,Seated_Dumbbell_Press
+Seated Flat Bench Leg Pull-In,pull,beginner,compound,body only,['abdominals'],[],strength,Seated_Flat_Bench_Leg_Pull-In
+Seated Head Harness Neck Resistance,pull,intermediate,isolation,other,['neck'],[],strength,Seated_Head_Harness_Neck_Resistance
+Seated Leg Curl,legs,beginner,isolation,machine,['hamstrings'],[],strength,Seated_Leg_Curl
+Seated Leg Tucks,pull,beginner,isolation,body only,['abdominals'],[],strength,Seated_Leg_Tucks
+Seated One-Arm Dumbbell Palms-Down Wrist Curl,pull,intermediate,isolation,dumbbell,['forearms'],[],strength,Seated_One-Arm_Dumbbell_Palms-Down_Wrist_Curl
+Seated One-Arm Dumbbell Palms-Up Wrist Curl,pull,beginner,isolation,dumbbell,['forearms'],[],strength,Seated_One-Arm_Dumbbell_Palms-Up_Wrist_Curl
+Seated One-arm Cable Pulley Rows,pull,intermediate,compound,cable,['middle back'],"['biceps', 'lats', 'traps']",strength,Seated_One-arm_Cable_Pulley_Rows
+Seated Palm-Up Barbell Wrist Curl,pull,beginner,isolation,barbell,['forearms'],[],strength,Seated_Palm-Up_Barbell_Wrist_Curl
+Seated Palms-Down Barbell Wrist Curl,pull,beginner,isolation,barbell,['forearms'],[],strength,Seated_Palms-Down_Barbell_Wrist_Curl
+Seated Side Lateral Raise,push,beginner,isolation,dumbbell,['shoulders'],[],strength,Seated_Side_Lateral_Raise
+Seated Triceps Press,push,beginner,isolation,dumbbell,['triceps'],[],strength,Seated_Triceps_Press
+Seated Two-Arm Palms-Up Low-Pulley Wrist Curl,pull,beginner,isolation,cable,['forearms'],[],strength,Seated_Two-Arm_Palms-Up_Low-Pulley_Wrist_Curl
+See-Saw Press (Alternating Side Press),push,intermediate,compound,dumbbell,['shoulders'],"['abdominals', 'triceps']",strength,See-Saw_Press_Alternating_Side_Press
+Shotgun Row,pull,beginner,compound,cable,['lats'],"['biceps', 'middle back']",strength,Shotgun_Row
+Shoulder Press - With Bands,push,beginner,compound,bands,['shoulders'],['triceps'],strength,Shoulder_Press_-_With_Bands
+Side Bridge,static,beginner,,body only,['abdominals'],['shoulders'],strength,Side_Bridge
+Side Jackknife,pull,beginner,compound,body only,['abdominals'],[],strength,Side_Jackknife
+Side Lateral Raise,push,beginner,isolation,dumbbell,['shoulders'],[],strength,Side_Lateral_Raise
+Side Laterals to Front Raise,push,beginner,isolation,dumbbell,['shoulders'],['traps'],strength,Side_Laterals_to_Front_Raise
+Side To Side Chins,pull,intermediate,compound,other,['lats'],"['biceps', 'forearms', 'middle back', 'shoulders']",strength,Side_To_Side_Chins
+Single-Arm Cable Crossover,push,beginner,isolation,cable,['chest'],[],strength,Single-Arm_Cable_Crossover
+Single-Arm Linear Jammer,push,intermediate,compound,barbell,['shoulders'],"['chest', 'triceps']",strength,Single-Arm_Linear_Jammer
+Single-Arm Push-Up,push,intermediate,compound,body only,['chest'],"['shoulders', 'triceps']",strength,Single-Arm_Push-Up
+Single-Leg High Box Squat,legs,beginner,compound,other,['quadriceps'],"['glutes', 'hamstrings']",strength,Single-Leg_High_Box_Squat
+Single-Leg Leg Extension,legs,beginner,isolation,machine,['quadriceps'],[],strength,Single-Leg_Leg_Extension
+Single Dumbbell Raise,,beginner,isolation,dumbbell,['shoulders'],"['forearms', 'traps']",strength,Single_Dumbbell_Raise
+Single Leg Glute Bridge,legs,beginner,isolation,body only,['glutes'],['hamstrings'],strength,Single_Leg_Glute_Bridge
+Sit-Up,pull,beginner,isolation,body only,['abdominals'],[],strength,Sit-Up
+Sled Overhead Backward Walk,pull,beginner,compound,other,['shoulders'],"['calves', 'middle back', 'quadriceps']",strength,Sled_Overhead_Backward_Walk
+Sled Overhead Triceps Extension,push,beginner,isolation,other,['triceps'],[],strength,Sled_Overhead_Triceps_Extension
+Sled Reverse Flye,pull,beginner,isolation,other,['shoulders'],[],strength,Sled_Reverse_Flye
+Sled Row,pull,beginner,compound,other,['middle back'],"['biceps', 'lats']",strength,Sled_Row
+Smith Incline Shoulder Raise,push,beginner,isolation,barbell,['shoulders'],['chest'],strength,Smith_Incline_Shoulder_Raise
+Smith Machine Behind the Back Shrug,pull,beginner,isolation,machine,['traps'],['shoulders'],strength,Smith_Machine_Behind_the_Back_Shrug
+Smith Machine Bench Press,push,beginner,compound,machine,['chest'],"['shoulders', 'triceps']",strength,Smith_Machine_Bench_Press
+Smith Machine Bent Over Row,pull,beginner,compound,machine,['middle back'],"['biceps', 'lats', 'shoulders']",strength,Smith_Machine_Bent_Over_Row
+Smith Machine Calf Raise,legs,beginner,isolation,machine,['calves'],[],strength,Smith_Machine_Calf_Raise
+Smith Machine Close-Grip Bench Press,push,beginner,compound,machine,['triceps'],"['chest', 'shoulders']",strength,Smith_Machine_Close-Grip_Bench_Press
+Smith Machine Decline Press,,beginner,compound,machine,['chest'],"['shoulders', 'triceps']",strength,Smith_Machine_Decline_Press
+Smith Machine Hang Power Clean,legs,intermediate,compound,machine,['hamstrings'],"['glutes', 'lower back', 'quadriceps', 'shoulders', 'traps']",strength,Smith_Machine_Hang_Power_Clean
+Smith Machine Hip Raise,pull,beginner,isolation,machine,['abdominals'],[],strength,Smith_Machine_Hip_Raise
+Smith Machine Incline Bench Press,push,beginner,compound,machine,['chest'],"['shoulders', 'triceps']",strength,Smith_Machine_Incline_Bench_Press
+Smith Machine Leg Press,legs,intermediate,compound,machine,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Smith_Machine_Leg_Press
+Smith Machine One-Arm Upright Row,pull,beginner,compound,machine,['shoulders'],"['biceps', 'traps']",strength,Smith_Machine_One-Arm_Upright_Row
+Smith Machine Overhead Shoulder Press,push,beginner,compound,machine,['shoulders'],['triceps'],strength,Smith_Machine_Overhead_Shoulder_Press
+Smith Machine Pistol Squat,legs,intermediate,compound,machine,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Smith_Machine_Pistol_Squat
+Smith Machine Reverse Calf Raises,legs,beginner,isolation,machine,['calves'],[],strength,Smith_Machine_Reverse_Calf_Raises
+Smith Machine Squat,legs,beginner,compound,machine,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'lower back']",strength,Smith_Machine_Squat
+Smith Machine Stiff-Legged Deadlift,legs,beginner,compound,machine,['hamstrings'],"['glutes', 'lower back']",strength,Smith_Machine_Stiff-Legged_Deadlift
+Smith Machine Upright Row,pull,beginner,compound,machine,['traps'],"['biceps', 'middle back', 'shoulders']",strength,Smith_Machine_Upright_Row
+Smith Single-Leg Split Squat,legs,beginner,compound,machine,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Smith_Single-Leg_Split_Squat
+Snatch Pull,legs,intermediate,compound,barbell,['hamstrings'],"['calves', 'glutes', 'lower back', 'quadriceps', 'traps']",strength,Snatch_Pull
+Speed Band Overhead Triceps,push,beginner,isolation,bands,['triceps'],[],strength,Speed_Band_Overhead_Triceps
+Speed Squats,legs,expert,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'lower back']",strength,Speed_Squats
+Spell Caster,pull,beginner,compound,dumbbell,['abdominals'],"['glutes', 'shoulders']",strength,Spell_Caster
+Spider Crawl,pull,beginner,compound,body only,['abdominals'],"['chest', 'shoulders', 'triceps']",strength,Spider_Crawl
+Spider Curl,pull,beginner,isolation,e-z curl bar,['biceps'],[],strength,Spider_Curl
+Split Squat with Dumbbells,legs,beginner,compound,dumbbell,['quadriceps'],"['glutes', 'hamstrings']",strength,Split_Squat_with_Dumbbells
+Squat Jerk,legs,expert,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'shoulders', 'triceps']",strength,Squat_Jerk
+Squat with Plate Movers,legs,intermediate,compound,barbell,['quadriceps'],"['abductors', 'adductors', 'calves', 'glutes', 'hamstrings']",strength,Squat_with_Plate_Movers
+Squats - With Bands,legs,beginner,compound,bands,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'lower back']",strength,Squats_-_With_Bands
+Standing Alternating Dumbbell Press,push,beginner,compound,dumbbell,['shoulders'],['triceps'],strength,Standing_Alternating_Dumbbell_Press
+Standing Barbell Calf Raise,legs,beginner,isolation,barbell,['calves'],[],strength,Standing_Barbell_Calf_Raise
+Standing Barbell Press Behind Neck,push,intermediate,compound,barbell,['shoulders'],['triceps'],strength,Standing_Barbell_Press_Behind_Neck
+Standing Bent-Over One-Arm Dumbbell Triceps Extension,push,beginner,isolation,dumbbell,['triceps'],['shoulders'],strength,Standing_Bent-Over_One-Arm_Dumbbell_Triceps_Extension
+Standing Bent-Over Two-Arm Dumbbell Triceps Extension,push,beginner,isolation,dumbbell,['triceps'],[],strength,Standing_Bent-Over_Two-Arm_Dumbbell_Triceps_Extension
+Standing Biceps Cable Curl,pull,beginner,isolation,cable,['biceps'],[],strength,Standing_Biceps_Cable_Curl
+Standing Bradford Press,push,beginner,compound,barbell,['shoulders'],['triceps'],strength,Standing_Bradford_Press
+Standing Cable Chest Press,push,beginner,compound,cable,['chest'],"['shoulders', 'triceps']",strength,Standing_Cable_Chest_Press
+Standing Cable Lift,pull,beginner,compound,cable,['abdominals'],['shoulders'],strength,Standing_Cable_Lift
+Standing Cable Wood Chop,pull,beginner,compound,cable,['abdominals'],['shoulders'],strength,Standing_Cable_Wood_Chop
+Standing Calf Raises,legs,beginner,isolation,machine,['calves'],[],strength,Standing_Calf_Raises
+Standing Concentration Curl,pull,beginner,isolation,dumbbell,['biceps'],['forearms'],strength,Standing_Concentration_Curl
+Standing Dumbbell Calf Raise,legs,intermediate,isolation,dumbbell,['calves'],[],strength,Standing_Dumbbell_Calf_Raise
+Standing Dumbbell Press,push,beginner,compound,dumbbell,['shoulders'],['triceps'],strength,Standing_Dumbbell_Press
+Standing Dumbbell Reverse Curl,pull,intermediate,isolation,dumbbell,['biceps'],['forearms'],strength,Standing_Dumbbell_Reverse_Curl
+Standing Dumbbell Straight-Arm Front Delt Raise Above Head,push,intermediate,isolation,dumbbell,['shoulders'],[],strength,Standing_Dumbbell_Straight-Arm_Front_Delt_Raise_Above_Head
+Standing Dumbbell Triceps Extension,push,beginner,isolation,dumbbell,['triceps'],[],strength,Standing_Dumbbell_Triceps_Extension
+Standing Dumbbell Upright Row,pull,beginner,compound,dumbbell,['traps'],"['biceps', 'shoulders']",strength,Standing_Dumbbell_Upright_Row
+Standing Front Barbell Raise Over Head,push,intermediate,isolation,barbell,['shoulders'],[],strength,Standing_Front_Barbell_Raise_Over_Head
+Standing Inner-Biceps Curl,pull,intermediate,isolation,dumbbell,['biceps'],[],strength,Standing_Inner-Biceps_Curl
+Standing Leg Curl,legs,beginner,isolation,machine,['hamstrings'],[],strength,Standing_Leg_Curl
+Standing Low-Pulley Deltoid Raise,push,beginner,isolation,cable,['shoulders'],['forearms'],strength,Standing_Low-Pulley_Deltoid_Raise
+Standing Low-Pulley One-Arm Triceps Extension,push,intermediate,isolation,cable,['triceps'],"['chest', 'shoulders']",strength,Standing_Low-Pulley_One-Arm_Triceps_Extension
+Standing Military Press,push,beginner,compound,barbell,['shoulders'],['triceps'],strength,Standing_Military_Press
+Standing Olympic Plate Hand Squeeze,static,beginner,isolation,other,['forearms'],['biceps'],strength,Standing_Olympic_Plate_Hand_Squeeze
+Standing One-Arm Cable Curl,pull,intermediate,isolation,cable,['biceps'],[],strength,Standing_One-Arm_Cable_Curl
+Standing One-Arm Dumbbell Curl Over Incline Bench,pull,beginner,isolation,dumbbell,['biceps'],[],strength,Standing_One-Arm_Dumbbell_Curl_Over_Incline_Bench
+Standing One-Arm Dumbbell Triceps Extension,push,beginner,isolation,dumbbell,['triceps'],"['chest', 'shoulders']",strength,Standing_One-Arm_Dumbbell_Triceps_Extension
+Standing Overhead Barbell Triceps Extension,push,beginner,isolation,barbell,['triceps'],['shoulders'],strength,Standing_Overhead_Barbell_Triceps_Extension
+Standing Palm-In One-Arm Dumbbell Press,push,beginner,compound,dumbbell,['shoulders'],['triceps'],strength,Standing_Palm-In_One-Arm_Dumbbell_Press
+Standing Palms-In Dumbbell Press,push,intermediate,compound,dumbbell,['shoulders'],['triceps'],strength,Standing_Palms-In_Dumbbell_Press
+Standing Palms-Up Barbell Behind The Back Wrist Curl,pull,beginner,isolation,barbell,['forearms'],[],strength,Standing_Palms-Up_Barbell_Behind_The_Back_Wrist_Curl
+Standing Rope Crunch,pull,beginner,isolation,cable,['abdominals'],[],strength,Standing_Rope_Crunch
+Standing Towel Triceps Extension,push,beginner,isolation,body only,['triceps'],[],strength,Standing_Towel_Triceps_Extension
+Step-up with Knee Raise,legs,beginner,compound,body only,['glutes'],"['hamstrings', 'quadriceps']",strength,Step-up_with_Knee_Raise
+Stiff-Legged Barbell Deadlift,legs,intermediate,compound,barbell,['hamstrings'],"['glutes', 'lower back']",strength,Stiff-Legged_Barbell_Deadlift
+Stiff-Legged Dumbbell Deadlift,legs,beginner,compound,dumbbell,['hamstrings'],"['glutes', 'lower back']",strength,Stiff-Legged_Dumbbell_Deadlift
+Stiff Leg Barbell Good Morning,push,beginner,compound,barbell,['lower back'],"['glutes', 'hamstrings']",strength,Stiff_Leg_Barbell_Good_Morning
+Straight-Arm Dumbbell Pullover,pull,intermediate,compound,dumbbell,['chest'],"['lats', 'shoulders', 'triceps']",strength,Straight-Arm_Dumbbell_Pullover
+Straight-Arm Pulldown,pull,beginner,isolation,cable,['lats'],[],strength,Straight-Arm_Pulldown
+Straight Bar Bench Mid Rows,pull,beginner,compound,barbell,['middle back'],"['biceps', 'lats']",strength,Straight_Bar_Bench_Mid_Rows
+Straight Raises on Incline Bench,push,beginner,isolation,barbell,['shoulders'],['traps'],strength,Straight_Raises_on_Incline_Bench
+Suspended Fallout,pull,intermediate,isolation,other,['abdominals'],"['chest', 'lower back', 'shoulders']",strength,Suspended_Fallout
+Suspended Push-Up,push,beginner,compound,other,['chest'],"['shoulders', 'triceps']",strength,Suspended_Push-Up
+Suspended Reverse Crunch,pull,beginner,isolation,other,['abdominals'],[],strength,Suspended_Reverse_Crunch
+Suspended Row,pull,beginner,compound,other,['middle back'],"['biceps', 'lats']",strength,Suspended_Row
+Suspended Split Squat,legs,intermediate,compound,other,['quadriceps'],"['abductors', 'adductors', 'calves', 'glutes', 'hamstrings']",strength,Suspended_Split_Squat
+Svend Press,push,beginner,compound,other,['chest'],"['forearms', 'shoulders', 'triceps']",strength,Svend_Press
+T-Bar Row with Handle,pull,beginner,compound,barbell,['middle back'],"['biceps', 'lats']",strength,T-Bar_Row_with_Handle
+Tate Press,push,intermediate,isolation,dumbbell,['triceps'],"['chest', 'shoulders']",strength,Tate_Press
+Thigh Abductor,legs,beginner,isolation,machine,['abductors'],['glutes'],strength,Thigh_Abductor
+Thigh Adductor,legs,beginner,isolation,machine,['adductors'],"['glutes', 'hamstrings']",strength,Thigh_Adductor
+Trap Bar Deadlift,legs,beginner,compound,other,['quadriceps'],"['glutes', 'hamstrings']",strength,Trap_Bar_Deadlift
+Tricep Dumbbell Kickback,push,beginner,isolation,dumbbell,['triceps'],[],strength,Tricep_Dumbbell_Kickback
+Triceps Overhead Extension with Rope,push,beginner,isolation,cable,['triceps'],[],strength,Triceps_Overhead_Extension_with_Rope
+Triceps Pushdown,push,beginner,isolation,cable,['triceps'],[],strength,Triceps_Pushdown
+Triceps Pushdown - Rope Attachment,push,beginner,isolation,cable,['triceps'],[],strength,Triceps_Pushdown_-_Rope_Attachment
+Triceps Pushdown - V-Bar Attachment,push,beginner,isolation,cable,['triceps'],[],strength,Triceps_Pushdown_-_V-Bar_Attachment
+Tuck Crunch,pull,beginner,isolation,body only,['abdominals'],[],strength,Tuck_Crunch
+Two-Arm Dumbbell Preacher Curl,pull,beginner,isolation,dumbbell,['biceps'],[],strength,Two-Arm_Dumbbell_Preacher_Curl
+Two-Arm Kettlebell Clean,pull,intermediate,compound,kettlebells,['shoulders'],"['calves', 'glutes', 'hamstrings', 'lower back', 'traps']",strength,Two-Arm_Kettlebell_Clean
+Two-Arm Kettlebell Jerk,push,intermediate,compound,kettlebells,['shoulders'],"['calves', 'quadriceps', 'triceps']",strength,Two-Arm_Kettlebell_Jerk
+Two-Arm Kettlebell Military Press,push,intermediate,compound,kettlebells,['shoulders'],['triceps'],strength,Two-Arm_Kettlebell_Military_Press
+Two-Arm Kettlebell Row,pull,intermediate,compound,kettlebells,['middle back'],"['biceps', 'lats']",strength,Two-Arm_Kettlebell_Row
+Underhand Cable Pulldowns,pull,beginner,compound,cable,['lats'],"['biceps', 'middle back', 'shoulders']",strength,Underhand_Cable_Pulldowns
+Upright Barbell Row,pull,beginner,compound,barbell,['shoulders'],['traps'],strength,Upright_Barbell_Row
+Upright Cable Row,pull,intermediate,compound,cable,['traps'],['shoulders'],strength,Upright_Cable_Row
+Upright Row - With Bands,pull,beginner,compound,bands,['traps'],['shoulders'],strength,Upright_Row_-_With_Bands
+V-Bar Pulldown,pull,intermediate,compound,cable,['lats'],"['biceps', 'middle back', 'shoulders']",strength,V-Bar_Pulldown
+V-Bar Pullup,pull,beginner,compound,body only,['lats'],"['biceps', 'middle back', 'shoulders']",strength,V-Bar_Pullup
+Weighted Ball Hyperextension,pull,intermediate,compound,exercise ball,['lower back'],"['glutes', 'hamstrings', 'middle back']",strength,Weighted_Ball_Hyperextension
+Weighted Ball Side Bend,pull,intermediate,isolation,exercise ball,['abdominals'],[],strength,Weighted_Ball_Side_Bend
+Weighted Bench Dip,push,intermediate,compound,other,['triceps'],"['chest', 'shoulders']",strength,Weighted_Bench_Dip
+Weighted Crunches,pull,beginner,isolation,medicine ball,['abdominals'],[],strength,Weighted_Crunches
+Weighted Jump Squat,legs,intermediate,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'lower back']",strength,Weighted_Jump_Squat
+Weighted Pull Ups,pull,intermediate,compound,other,['lats'],"['biceps', 'middle back']",strength,Weighted_Pull_Ups
+Weighted Sissy Squat,legs,expert,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Weighted_Sissy_Squat
+Weighted Sit-Ups - With Bands,pull,intermediate,isolation,other,['abdominals'],[],strength,Weighted_Sit-Ups_-_With_Bands
+Weighted Squat,legs,intermediate,compound,other,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Weighted_Squat
+Wide-Grip Barbell Bench Press,push,intermediate,compound,barbell,['chest'],"['shoulders', 'triceps']",strength,Wide-Grip_Barbell_Bench_Press
+Wide-Grip Decline Barbell Bench Press,push,intermediate,compound,barbell,['chest'],"['shoulders', 'triceps']",strength,Wide-Grip_Decline_Barbell_Bench_Press
+Wide-Grip Decline Barbell Pullover,pull,intermediate,compound,barbell,['chest'],"['shoulders', 'triceps']",strength,Wide-Grip_Decline_Barbell_Pullover
+Wide-Grip Lat Pulldown,pull,beginner,compound,cable,['lats'],"['biceps', 'middle back', 'shoulders']",strength,Wide-Grip_Lat_Pulldown
+Wide-Grip Pulldown Behind The Neck,pull,intermediate,compound,cable,['lats'],"['biceps', 'middle back', 'shoulders']",strength,Wide-Grip_Pulldown_Behind_The_Neck
+Wide-Grip Rear Pull-Up,pull,intermediate,compound,body only,['lats'],"['biceps', 'middle back', 'shoulders']",strength,Wide-Grip_Rear_Pull-Up
+Wide-Grip Standing Barbell Curl,pull,beginner,isolation,barbell,['biceps'],[],strength,Wide-Grip_Standing_Barbell_Curl
+Wide Stance Barbell Squat,legs,intermediate,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings', 'lower back']",strength,Wide_Stance_Barbell_Squat
+Wind Sprints,pull,beginner,compound,body only,['abdominals'],[],strength,Wind_Sprints
+Wrist Roller,pull,beginner,isolation,other,['forearms'],['shoulders'],strength,Wrist_Roller
+Wrist Rotations with Straight Bar,pull,beginner,isolation,barbell,['forearms'],[],strength,Wrist_Rotations_with_Straight_Bar
+Zercher Squats,legs,expert,compound,barbell,['quadriceps'],"['calves', 'glutes', 'hamstrings']",strength,Zercher_Squats
+Zottman Curl,pull,intermediate,isolation,dumbbell,['biceps'],['forearms'],strength,Zottman_Curl
+Zottman Preacher Curl,pull,intermediate,isolation,dumbbell,['biceps'],['forearms'],strength,Zottman_Preacher_Curl

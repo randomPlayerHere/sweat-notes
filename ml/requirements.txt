@@ -2,4 +2,8 @@ numpy
 pandas
 seaborn
 matplotlib
-sklearn
+scikit-learn
+flask
+langchain 
+chromadb 
+sentence-transformers
